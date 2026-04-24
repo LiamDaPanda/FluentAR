@@ -302,15 +302,10 @@ export default function ARScreen({
     ? `Turn ${Math.min(turn + 1, totalTurns)} / ${totalTurns}`
     : "Conversation";
 
-  const handlePressIn = useCallback(() => {
-    startListening();
-  }, [startListening]);
-
-  const handlePressOut = useCallback(() => {
-    if (listening) {
-      stopListening();
-    }
-  }, [listening]);
+  const handlePressIn = () => startListening();
+  const handlePressOut = () => {
+    if (listening) stopListening();
+  };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
