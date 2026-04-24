@@ -1,0 +1,39 @@
+{
+  "lessonProgress": [
+    {
+      "user_id": "local-student",
+      "lesson_id": "ko_cafe_ar",
+      "completed": 1,
+      "score": 0.85,
+      "updated_at": "2026-04-21T00:07:51.860Z"
+    },
+    {
+      "user_id": "local-student",
+      "lesson_id": "ko_hangul_vocab",
+      "completed": 1,
+      "score": 1,
+      "updated_at": "2026-04-23T20:29:18.557Z"
+    }
+  ],
+  "arSessions": [
+    {
+      "id": 1,
+      "user_id": "local-student",
+      "module_id": "ko_cafe",
+      "transcript": {
+        "lines": [
+          {
+            "role": "tutor",
+            "text": "안녕하세요! 어떤 거 드릴까요?"
+          }
+        ],
+        "moduleId": "ko_cafe",
+        "lessonId": "ko_cafe_ar",
+        "mock": false
+      },
+      "performance_score": 0.85,
+      "created_at": "2026-04-21T00:07:51.866Z"
+    }
+  ],
+  "nextArSessionId": 2
+}
