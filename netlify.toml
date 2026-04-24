@@ -1,0 +1,13 @@
+[build]
+  command = "cd mobile && npx expo export --platform web --output-dir ../dist"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# SPA: every URL falls back to index.html so React Navigation handles routing.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

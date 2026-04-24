@@ -1,6 +1,9 @@
 node_modules/
 dist/
 .expo/
-.vscode/
 *.log
+.env
+.env.local
+backend/data/*.json
 .DS_Store
+*.tsbuildinfo
