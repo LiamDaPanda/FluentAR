@@ -1,0 +1,10 @@
+{
+  "moduleId": "interview",
+  "turns": [
+    { "role": "tutor", "text": "Thanks for joining us. Tell me a little about your background." },
+    { "role": "learner_hint", "text": "Try: \"I've worked in retail for two years.\"" },
+    { "role": "tutor", "text": "How would you handle an angry customer on the phone?" },
+    { "role": "tutor", "text": "Why do you want this role?" }
+  ],
+  "mock": true
+}

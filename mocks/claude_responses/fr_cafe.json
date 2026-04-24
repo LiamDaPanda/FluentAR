@@ -1,0 +1,16 @@
+{
+  "moduleId": "fr_cafe",
+  "language": "fr",
+  "turns": [
+    { "role": "tutor", "text": "Bonjour ! Qu'est-ce que je vous sers ?" },
+    { "role": "learner_hint", "text": "Try: \"Je voudrais un café, s'il vous plaît.\"" },
+    { "role": "tutor", "text": "Sur place ou à emporter ?" },
+    { "role": "learner_hint", "text": "Try: \"Sur place.\"" },
+    { "role": "tutor", "text": "Très bien. Et avec ça ?" },
+    { "role": "learner_hint", "text": "Try: \"Je voudrais aussi un croissant.\"" },
+    { "role": "tutor", "text": "Ça fait 4,80 €. Vous payez comment ?" },
+    { "role": "learner_hint", "text": "Try: \"Par carte, s'il vous plaît.\"" },
+    { "role": "tutor", "text": "Merci, bonne journée !" }
+  ],
+  "mock": true
+}

@@ -1,0 +1,870 @@
+{
+  "title": "FluentAR English",
+  "language": "en",
+  "bcp47": "en-US",
+  "nativeName": "English",
+  "flag": "🇺🇸",
+  "levels": [
+    {
+      "id": "1",
+      "title": "The Alphabet & Sounds",
+      "objective": "Recognize letters; understand basic sounds; pronounce simple syllables",
+      "modules": [
+        {
+          "id": "alphabet",
+          "title": "Letters & Sounds",
+          "theme": "foundation",
+          "lessons": [
+            {
+              "id": "alphabet_letters",
+              "title": "The 26 Letters",
+              "objective": "Recognize all 26 letters of the alphabet",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "A", "translation": "ay" },
+                { "term": "B", "translation": "bee" },
+                { "term": "C", "translation": "see" },
+                { "term": "D", "translation": "dee" },
+                { "term": "E", "translation": "ee" },
+                { "term": "F", "translation": "ef" },
+                { "term": "G", "translation": "jee" },
+                { "term": "H", "translation": "aych" },
+                { "term": "I", "translation": "ai" },
+                { "term": "J", "translation": "jay" },
+                { "term": "K", "translation": "kay" },
+                { "term": "L", "translation": "el" },
+                { "term": "M", "translation": "em" },
+                { "term": "N", "translation": "en" },
+                { "term": "O", "translation": "oh" },
+                { "term": "P", "translation": "pee" },
+                { "term": "Q", "translation": "kyu" },
+                { "term": "R", "translation": "ar" },
+                { "term": "S", "translation": "es" },
+                { "term": "T", "translation": "tee" },
+                { "term": "U", "translation": "yu" },
+                { "term": "V", "translation": "vee" },
+                { "term": "W", "translation": "dublu" },
+                { "term": "X", "translation": "eks" },
+                { "term": "Y", "translation": "wai" },
+                { "term": "Z", "translation": "zee" }
+              ],
+              "quiz": { "question": "Which letter says 'ay'?", "options": ["A", "B", "C"], "answerIndex": 0 }
+            },
+            {
+              "id": "alphabet_pronunciation",
+              "title": "Core Sounds",
+              "objective": "Practice pronunciation with repeat-after-me drills",
+              "type": "speaking",
+              "description": "Train core sounds using repeat-after-me drills. AR mouth-position animations show correct tongue and lip placement. Automatic pronunciation tests score clarity, stress, and sound accuracy.",
+              "flashcards": [
+                { "term": "short a", "translation": "cat, hat, sat" },
+                { "term": "long a", "translation": "cake, hate, same" },
+                { "term": "short e", "translation": "bed, fed, red" },
+                { "term": "long e", "translation": "beef, feed, seed" },
+                { "term": "short i", "translation": "bit, fit, sit" },
+                { "term": "long i", "translation": "bite, fight, sight" },
+                { "term": "short o", "translation": "bot, hot, pot" },
+                { "term": "long o", "translation": "boat, coat, note" },
+                { "term": "short u", "translation": "bug, hug, mug" },
+                { "term": "long u", "translation": "cube, tube, juice" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR letters float in 3D space. Tap each letter to hear its name and sound. Say it aloud and see visual feedback.",
+            "tutorLines": ["Let's learn the alphabet.", "What letter is this?", "Say it after me."],
+            "expectedLearnerResponses": ["A", "B", "C"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Everyday Objects",
+      "objective": "Learn basic nouns - objects around you",
+      "modules": [
+        {
+          "id": "objects",
+          "title": "Objects Around You",
+          "theme": "vocabulary",
+          "lessons": [
+            {
+              "id": "objects_room",
+              "title": "Room Objects",
+              "objective": "Name everyday objects in your space",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "cup", "translation": "A cup for drinking" },
+                { "term": "phone", "translation": "A mobile device" },
+                { "term": "bag", "translation": "For carrying things" },
+                { "term": "water", "translation": "Drink" },
+                { "term": "book", "translation": "For reading" },
+                { "term": "pen", "translation": "For writing" },
+                { "term": "chair", "translation": "To sit on" },
+                { "term": "table", "translation": "Flat surface" },
+                { "term": "door", "translation": "Entrance/exit" },
+                { "term": "window", "translation": "Glass opening" }
+              ],
+              "quiz": { "question": "What is this?", "options": ["cup", "cap", "cop"], "answerIndex": 0 }
+            },
+            {
+              "id": "objects_outside",
+              "title": "Outside Objects",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "car", "translation": "Vehicle" },
+                { "term": "tree", "translation": "Plant" },
+                { "term": "building", "translation": "Structure" },
+                { "term": "street", "translation": "Road" },
+                { "term": "sign", "translation": "Information" },
+                { "term": "bench", "translation": " seating outside" },
+                { "term": "shop", "translation": "Store" },
+                { "term": "park", "translation": "Green space" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR labels appear on real objects around you. Name objects aloud with ASR checking correctness.",
+            "tutorLines": ["What do you see?", "Point to the cup.", "Say its name."],
+            "expectedLearnerResponses": ["Cup", "Phone", "Bag"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Basic Verbs",
+      "objective": "Learn action words - eat, drink, go, come, see, want",
+      "modules": [
+        {
+          "id": "verbs",
+          "title": "Action Words",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "verbs_basic",
+              "title": "Core Verbs",
+              "objective": "Learn basic action words",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "eat", "translation": "Put food in mouth" },
+                { "term": "drink", "translation": "Swallow liquid" },
+                { "term": "go", "translation": "Move from here" },
+                { "term": "come", "translation": "Move toward me" },
+                { "term": "see", "translation": "Look at" },
+                { "term": "want", "translation": "Desire" },
+                { "term": "get", "translation": "Obtain" },
+                { "term": "make", "translation": "Create" },
+                { "term": "say", "translation": "Speak" },
+                { "term": "take", "translation": "Grab" }
+              ],
+              "quiz": { "question": "What do you do with food?", "options": ["eat", "drink", "sleep"], "answerIndex": 0 }
+            },
+            {
+              "id": "verbs_sentences",
+              "title": "Simple Sentences",
+              "objective": "Form basic sentences with verbs",
+              "type": "speaking",
+              "description": "Watch AR characters perform actions and describe what you see. Form sentences like 'I want ___' or 'I see ___.'",
+              "flashcards": [
+                { "term": "I eat", "translation": "Subject + verb" },
+                { "term": "I see", "translation": "Subject + verb" },
+                { "term": "I want", "translation": "Subject + verb" },
+                { "term": "I go", "translation": "Subject + verb" },
+                { "term": "I come", "translation": "Subject + verb" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR characters perform actions. Describe what you see.",
+            "tutorLines": ["What is the person doing?", "Say it in English."],
+            "expectedLearnerResponses": ["I eat", "I see", "I want"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Greetings & Politeness",
+      "objective": "Learn hello, goodbye, thank you, sorry",
+      "modules": [
+        {
+          "id": "greetings",
+          "title": "Hello & Goodbye",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "greetings_basic",
+              "title": "Greeting Words",
+              "objective": "Basic greetings",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "hello", "translation": "General greeting" },
+                { "term": "hi", "translation": "Casual hello" },
+                { "term": "good morning", "translation": "Morning greeting" },
+                { "term": "good afternoon", "translation": "Afternoon greeting" },
+                { "term": "good evening", "translation": "Evening greeting" },
+                { "term": "goodbye", "translation": "Farewell" },
+                { "term": "bye", "translation": "Casual goodbye" },
+                { "term": "see you", "translation": "Later" }
+              ],
+              "quiz": { "question": "Good morning is for when?", "options": ["Night", "Morning", "Evening"], "answerIndex": 1 }
+            },
+            {
+              "id": "greetings_polite",
+              "title": "Polite Words",
+              "objective": "Please and thank you",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "please", "translation": "Make a request" },
+                { "term": "thank you", "translation": "Show gratitude" },
+                { "term": "thanks", "translation": "Casual gratitude" },
+                { "term": "thank you very much", "translation": "Strong gratitude" },
+                { "term": "you're welcome", "translation": "Response to thanks" },
+                { "term": "sorry", "translation": "Apologize" },
+                { "term": "excuse me", "translation": "Get attention" },
+                { "term": "please sorry", "translation": "Apologize politely" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Virtual café entrance greeting simulation. Practice a three-turn greeting exchange scored for pronunciation and naturalness.",
+            "tutorLines": ["Welcome! Hello!", "How are you?", "Nice to meet you!"],
+            "expectedLearnerResponses": ["Hello!", "I'm fine, thank you.", "Nice to meet you too."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Self-Introduction",
+      "objective": "Introduce name, age, nationality, job",
+      "modules": [
+        {
+          "id": "introduction",
+          "title": "Who Are You?",
+          "theme": "identity",
+          "lessons": [
+            {
+              "id": "intro_basics",
+              "title": "Basic Introduction",
+              "objective": "Introduce yourself",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "I am", "translation": "My name is" },
+                { "term": "my name is", "translation": "Introduce name" },
+                { "term": "I am from", "translation": "Say origin" },
+                { "term": "I am years old", "translation": "Say age" },
+                { "term": "I am a", "translation": "Say job" },
+                { "term": "nice to meet you", "translation": "Polite meeting" }
+              ],
+              "quiz": { "question": "How do you say your name?", "options": ["I am", "My name is", "I have"], "answerIndex": 1 }
+            },
+            {
+              "id": "intro_details",
+              "title": " personal Details",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "I am American", "translation": "Nationality" },
+                { "term": "I am a student", "translation": "Student" },
+                { "term": "I am a teacher", "translation": "Teacher" },
+                { "term": "I work at", "translation": "Workplace" },
+                { "term": "I live in", "translation": "Residence" },
+                { "term": "I speak", "translation": "Languages" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Introduce yourself to a virtual character. Complete a structured introduction test that evaluates grammar, pacing, and confidence.",
+            "tutorLines": ["Hello! What's your name?", "How old are you?", "Where are you from?", "What do you do?"],
+            "expectedLearnerResponses": ["My name is Liam.", "I am 25 years old.", "I am from the US.", "I am a student."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Numbers, Time & Dates",
+      "objective": "Tell time, say dates, count",
+      "modules": [
+        {
+          "id": "numbers",
+          "title": "Counting",
+          "theme": "numbers",
+          "lessons": [
+            {
+              "id": "numbers_1_100",
+              "title": "Numbers 1-100",
+              "objective": "Count and calculate",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "one", "translation": "1" },
+                { "term": "two", "translation": "2" },
+                { "term": "three", "translation": "3" },
+                { "term": "four", "translation": "4" },
+                { "term": "five", "translation": "5" },
+                { "term": "ten", "translation": "10" },
+                { "term": "twenty", "translation": "20" },
+                { "term": "fifty", "translation": "50" },
+                { "term": "one hundred", "translation": "100" }
+              ],
+              "quiz": { "question": "What number is 5?", "options": ["five", "four", "six"], "answerIndex": 0 }
+            },
+            {
+              "id": "time_dates",
+              "title": "Time & Dates",
+              "objective": "Use AR clocks and calendars",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "what time is it?", "translation": "Ask time" },
+                { "term": "o'clock", "translation": "Exact hour" },
+                { "term": "half past", "translation": "30 minutes" },
+                { "term": "quarter past", "translation": "15 minutes" },
+                { "term": "today", "translation": "This day" },
+                { "term": "tomorrow", "translation": "Next day" },
+                { "term": "yesterday", "translation": "Previous day" },
+                { "term": "Monday", "translation": "Day 1" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR clocks and calendars. Answer 'What time is it?' and state today's date.",
+            "tutorLines": ["What time is it?", "What day is it today?"],
+            "expectedLearnerResponses": ["It is three o'clock.", "Today is Monday."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Family & People",
+      "objective": "Describe family members and possessives",
+      "modules": [
+        {
+          "id": "family",
+          "title": "Family Members",
+          "theme": "family",
+          "lessons": [
+            {
+              "id": "family_members",
+              "title": "Family Words",
+              "objective": "Name family members",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "mother", "translation": "Mom" },
+                { "term": "father", "translation": "Dad" },
+                { "term": "parents", "translation": "Mom and dad" },
+                { "term": "brother", "translation": "Male sibling" },
+                { "term": "sister", "translation": "Female sibling" },
+                { "term": "son", "translation": "Male child" },
+                { "term": "daughter", "translation": "Female child" },
+                { "term": "grandmother", "translation": "Mom's mom" },
+                { "term": "grandfather", "translation": "Dad's dad" }
+              ],
+              "quiz": { "question": "Your mother's sister is your?", "options": ["aunt", "uncle", "cousin"], "answerIndex": 0 }
+            },
+            {
+              "id": "family_possessives",
+              "title": "Possessives",
+              "objective": "Use my, your, his, her",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "my", "translation": "Belonging to me" },
+                { "term": "your", "translation": "Belonging to you" },
+                { "term": "his", "translation": "Belonging to him" },
+                { "term": "her", "translation": "Belonging to her" },
+                { "term": "our", "translation": "Belonging to us" },
+                { "term": "their", "translation": "Belonging to them" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR family tree. Describe family members.",
+            "tutorLines": ["Tell me about your family.", "Who is this?"],
+            "expectedLearnerResponses": ["This is my mother.", "That is my brother."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Colors, Shapes & Descriptions",
+      "objective": "Describe objects with adjectives",
+      "modules": [
+        {
+          "id": "descriptions",
+          "title": "Describing Things",
+          "theme": "adjectives",
+          "lessons": [
+            {
+              "id": "colors",
+              "title": "Colors",
+              "objective": "Name colors",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "red", "translation": "Color of blood" },
+                { "term": "blue", "translation": "Sky color" },
+                { "term": "green", "translation": "Grass color" },
+                { "term": "yellow", "translation": "Sun color" },
+                { "term": "black", "translation": "Dark color" },
+                { "term": "white", "translation": "Light color" },
+                { "term": "brown", "translation": "Earth color" },
+                { "term": "orange", "translation": "Fruit color" }
+              ],
+              "quiz": { "question": "What color is the sky?", "options": ["blue", "green", "red"], "answerIndex": 0 }
+            },
+            {
+              "id": "shapes_sizes",
+              "title": "Shapes & Sizes",
+              "objective": "Describe shape and size",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "big", "translation": "Large" },
+                { "term": "small", "translation": "Little" },
+                { "term": "round", "translation": "Circle shape" },
+                { "term": "square", "translation": "Box shape" },
+                { "term": "long", "translation": "Extended" },
+                { "term": "short", "translation": "Brief" },
+                { "term": "new", "translation": "Recent" },
+                { "term": "old", "translation": "Not recent" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR objects change color and size. Take a pronunciation test on color vocabulary.",
+            "tutorLines": ["What color is this?", "Is it big or small?"],
+            "expectedLearnerResponses": ["It is red.", "It is big."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Question Words",
+      "objective": "Form questions - who, what, where, when",
+      "modules": [
+        {
+          "id": "questions",
+          "title": "Asking Questions",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "question_words",
+              "title": "Question Formers",
+              "objective": "Learn question words",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "what", "translation": "Ask for thing" },
+                { "term": "who", "translation": "Ask for person" },
+                { "term": "where", "translation": "Ask for place" },
+                { "term": "when", "translation": "Ask for time" },
+                { "term": "why", "translation": "Ask for reason" },
+                { "term": "how", "translation": "Ask for manner" },
+                { "term": "which", "translation": "Ask for choice" },
+                { "term": "how many", "translation": "Ask for quantity" }
+              ],
+              "quiz": { "question": "Ask about a place?", "options": ["where", "what", "who"], "answerIndex": 0 }
+            },
+            {
+              "id": "question_practice",
+              "title": "Question Practice",
+              "type": "speaking",
+              "description": "AR treasure hunt - find items by asking questions"
+            }
+          ],
+          "arScenario": {
+            "summary": "AR treasure hunt using questions. Complete a question-formation speaking test.",
+            "tutorLines": ["Find the hidden object.", "Ask questions to find it."],
+            "expectedLearnerResponses": ["Where is it?", "Is it under the table?"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Daily Life & Food",
+      "objective": "Routines, food, restaurant ordering",
+      "modules": [
+        {
+          "id": "daily_routine",
+          "title": "My Day",
+          "theme": "routine",
+          "lessons": [
+            {
+              "id": "routine_words",
+              "title": "Daily Activities",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "wake up", "translation": "Start day" },
+                { "term": "eat breakfast", "translation": "Morning meal" },
+                { "term": "go to work", "translation": "Start job" },
+                { "term": "eat lunch", "translation": "Midday meal" },
+                { "term": "come home", "translation": "Return" },
+                { "term": "eat dinner", "translation": "Evening meal" },
+                { "term": "sleep", "translation": "End day" }
+              ]
+            },
+            {
+              "id": "food_drink",
+              "title": "Food & Drinks",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "water", "translation": "Basic drink" },
+                { "term": "coffee", "translation": "Morning drink" },
+                { "term": "tea", "translation": "Hot drink" },
+                { "term": "bread", "translation": "Staple food" },
+                { "term": "rice", "translation": "Grain food" },
+                { "term": "meat", "translation": "Protein" },
+                { "term": "vegetables", "translation": "Plants" },
+                { "term": "fruit", "translation": "Sweet plants" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR restaurant scenario. Complete an eight-turn restaurant roleplay with fluency and pronunciation scores.",
+            "tutorLines": ["Welcome! What would you like?", "Would you like anything else?", "How would you like to pay?"],
+            "expectedLearnerResponses": ["I would like water.", "Yes, some bread please.", "By card, thank you."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Shopping & Prices",
+      "objective": "Learn prices, sizes, comparisons",
+      "modules": [
+        {
+          "id": "shopping",
+          "title": "Shopping Language",
+          "theme": "shopping",
+          "lessons": [
+            {
+              "id": "shopping_words",
+              "title": "Store Words",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "how much", "translation": "Ask price" },
+                { "term": "expensive", "translation": "High price" },
+                { "term": "cheap", "translation": "Low price" },
+                { "term": "size", "translation": "Fit measurement" },
+                { "term": "small", "translation": "Size S" },
+                { "term": "medium", "translation": "Size M" },
+                { "term": "large", "translation": "Size L" },
+                { "term": "too much", "translation": "Overpriced" }
+              ],
+              "quiz": { "question": "How do you ask the price?", "options": ["How much?", "How many?"], "answerIndex": 0 }
+            }
+          ],
+          "arScenario": {
+            "summary": "AR store shelves. Practice bargaining and comparisons.",
+            "tutorLines": ["Can I help you?", "What size do you need?", "Is that okay?"],
+            "expectedLearnerResponses": ["How much is this?", "Too expensive!", "I will take it."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Directions & Places",
+      "objective": "Navigate places in town",
+      "modules": [
+        {
+          "id": "directions",
+          "title": "Finding Your Way",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "direction_words",
+              "title": "Places & Directions",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "where is", "translation": "Ask location" },
+                { "term": "turn left", "translation": "Go left" },
+                { "term": "turn right", "translation": "Go right" },
+                { "term": "straight", "translation": "Go forward" },
+                { "term": "station", "translation": "Train place" },
+                { "term": "hotel", "translation": "Sleep place" },
+                { "term": "restaurant", "translation": "Eat place" },
+                { "term": "airport", "translation": "Fly place" }
+              ]
+            },
+            {
+              "id": "weather",
+              "title": "Weather & Seasons",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "sunny", "translation": "No clouds" },
+                { "term": "rainy", "translation": "Water falls" },
+                { "term": "cloudy", "translation": "Gray sky" },
+                { "term": "snowy", "translation": "White flakes" },
+                { "term": "hot", "translation": "High temperature" },
+                { "term": "cold", "translation": "Low temperature" },
+                { "term": "warm", "translation": "Comfortable" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR arrows and maps. Navigate with spoken directions.",
+            "tutorLines": ["Where do you want to go?", "Go straight.", "Turn right."],
+            "expectedLearnerResponses": ["Where is the station?", "Thank you.", "I see it."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Hobbies & Interests",
+      "objective": "Describe activities you enjoy",
+      "modules": [
+        {
+          "id": "hobbies",
+          "title": "Free Time Activities",
+          "theme": "leisure",
+          "lessons": [
+            {
+              "id": "hobby_words",
+              "title": "Activities",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "I play sports", "translation": "Exercise" },
+                { "term": "I read books", "translation": "Read fiction" },
+                { "term": "I watch movies", "translation": "See films" },
+                { "term": "I listen to music", "translation": "Hear songs" },
+                { "term": "I cook", "translation": "Make food" },
+                { "term": "I draw", "translation": "Make art" },
+                { "term": "I garden", "translation": "Grow plants" }
+              ],
+              "quiz": { "question": "What do you do for fun?", "options": ["hobbies", "work"], "answerIndex": 0 }
+            }
+          ],
+          "arScenario": {
+            "summary": "Describe your hobbies and interests.",
+            "tutorLines": ["What do you like doing?", "Tell me about your hobbies."],
+            "expectedLearnerResponses": ["I like reading books.", "I also enjoy cooking."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Places & Home",
+      "objective": "Rooms, clothing, appointments",
+      "modules": [
+        {
+          "id": "home_rooms",
+          "title": "Home & Rooms",
+          "theme": "home",
+          "lessons": [
+            {
+              "id": "room_words",
+              "title": "Rooms & Furniture",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "living room", "translation": "Main room" },
+                { "term": "bedroom", "translation": "Sleep room" },
+                { "term": "kitchen", "translation": "Cook room" },
+                { "term": "bathroom", "translation": "Wash room" },
+                { "term": "bed", "translation": "Sleep furniture" },
+                { "term": "couch", "translation": "Sit furniture" },
+                { "term": "floor", "translation": "Ground" },
+                { "term": "wall", "translation": "Boundary" }
+              ]
+            },
+            {
+              "id": "clothing",
+              "title": "Clothing",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "shirt", "translation": "Top clothing" },
+                { "term": "pants", "translation": "Leg clothing" },
+                { "term": "dress", "translation": "One-piece" },
+                { "term": "shoes", "translation": "Foot wear" },
+                { "term": "coat", "translation": "Outer wear" },
+                { "term": "hat", "translation": "Head wear" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AR room overlays. Dress AR mannequins.",
+            "tutorLines": ["What room is this?", "What are you wearing?"],
+            "expectedLearnerResponses": ["This is the bedroom.", "I am wearing a shirt."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Health, Money & Travel",
+      "objective": "Doctor, ATM, hotel, airport",
+      "modules": [
+        {
+          "id": "health",
+          "title": "At the Doctor",
+          "theme": "health",
+          "lessons": [
+            {
+              "id": "health_words",
+              "title": "Symptoms & Care",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "headache", "translation": "Head pain" },
+                { "term": "stomachache", "translation": "Belly pain" },
+                { "term": "fever", "translation": "Hot body" },
+                { "term": "cold", "translation": "Illness" },
+                { "term": "doctor", "translation": "Medical person" },
+                { "term": "medicine", "translation": "Treatment" },
+                { "term": "pharmacy", "translation": "Drug store" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Virtual clinic desk. Describe symptoms.",
+            "tutorLines": ["What is the problem?", "Do you have a fever?"],
+            "expectedLearnerResponses": ["I have a headache.", "Yes, I have a fever."]
+          }
+        },
+        {
+          "id": "money",
+          "title": "Money & Banking",
+          "theme": "finance",
+          "lessons": [
+            {
+              "id": "money_words",
+              "title": "Money Terms",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "money", "translation": "Currency" },
+                { "term": "cash", "translation": "Physical money" },
+                { "term": "card", "translation": "Payment card" },
+                { "term": "ATM", "translation": "Cash machine" },
+                { "term": "bank", "translation": "Money place" },
+                { "term": "change", "translation": "Coins" },
+                { "term": "bill", "translation": "Paper money" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Pay for items at a shop and ask about prices.",
+            "tutorLines": ["That'll be twelve dollars.", "Cash or card?"],
+            "expectedLearnerResponses": ["Card, please.", "Here you are."]
+          }
+        },
+        {
+          "id": "hotel",
+          "title": "Hotel & Airport",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "travel_words",
+              "title": "Travel Terms",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "passport", "translation": "ID for travel" },
+                { "term": "ticket", "translation": "Travel pass" },
+                { "term": "boarding", "translation": "Get on plane" },
+                { "term": "gate", "translation": " boarding area" },
+                { "term": "luggage", "translation": "Travel bags" },
+                { "term": "reservation", "translation": "Advance booking" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Hotel lobby and boarding gate scenarios.",
+            "tutorLines": ["Do you have a reservation?", "Boarding starts soon."],
+            "expectedLearnerResponses": ["Yes, I have a reservation.", "Thank you."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Social & Final Project",
+      "objective": "Plans, opinions, storytelling, final conversation",
+      "modules": [
+        {
+          "id": "social",
+          "title": "Making Plans",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "social_words",
+              "title": "Plans & Invitations",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "would you like", "translation": "Invite" },
+                { "term": "let's", "translation": "Propose" },
+                { "term": "are you free", "translation": "Check availability" },
+                { "term": "how about", "translation": "Suggest" },
+                { "term": "sounds good", "translation": "Agree" },
+                { "term": "maybe", "translation": "Uncertain" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "AI-guided multi-turn dialogues. Make plans and give invitations.",
+            "tutorLines": ["Are you free this weekend?", "Would you like to go out?"],
+            "expectedLearnerResponses": ["Yes, what do you have in mind?", "That sounds great!"]
+          }
+        },
+        {
+          "id": "past_future",
+          "title": "Past & Future",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "past_words",
+              "title": "Talking About Time",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "yesterday", "translation": "Previous day" },
+                { "term": "last week", "translation": "Previous week" },
+                { "term": "ago", "translation": "Before now" },
+                { "term": "tomorrow", "translation": "Next day" },
+                { "term": "next week", "translation": "Future week" },
+                { "term": "plan to", "translation": "Intend" },
+                { "term": "want to", "translation": "Desire" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Tell about past events and future plans.",
+            "tutorLines": ["What did you do yesterday?", "What are you planning?"],
+            "expectedLearnerResponses": ["I went to the store.", "I plan to study."]
+          }
+        },
+        {
+          "id": "final_project",
+          "title": "Final Conversation",
+          "theme": "conversation",
+          "objective": "Complete multi-minute AR conversation",
+          "lessons": [
+            {
+              "id": "final_review",
+              "title": "Conversation Review",
+              "type": "vocabulary",
+              "description": "A short warm-up before the final AR conversation.",
+              "flashcards": [
+                { "term": "Could you say that again?", "translation": "Ask for repetition" },
+                { "term": "Let me think.", "translation": "Buying time" },
+                { "term": "What I mean is...", "translation": "Clarifying" },
+                { "term": "In my opinion...", "translation": "Sharing a view" },
+                { "term": "It depends.", "translation": "Hedging" }
+              ]
+            },
+            {
+              "id": "final_ar",
+              "title": "Final AR Conversation",
+              "type": "ar_challenge",
+              "description": "Multi-turn AR-supported conversation that measures pronunciation, fluency, grammar, vocabulary range, and overall communicative ability."
+            }
+          ],
+          "arScenario": {
+            "summary": "Open conversation — introduce yourself, share an opinion, talk about plans.",
+            "tutorLines": ["Tell me about yourself.", "What are your plans for next week?", "What do you think about that?"],
+            "expectedLearnerResponses": ["I'm a student from...", "I plan to visit...", "I think it's interesting because..."]
+          }
+        }
+      ]
+    }
+  ]
+}

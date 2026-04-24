@@ -1,0 +1,10 @@
+{
+  "moduleId": "doctor",
+  "turns": [
+    { "role": "tutor", "text": "Hello. Can you tell me what brings you in today?" },
+    { "role": "learner_hint", "text": "Try: \"I've had a sore throat for three days.\"" },
+    { "role": "tutor", "text": "How long have you felt this way?" },
+    { "role": "tutor", "text": "Do you have any allergies we should know about?" }
+  ],
+  "mock": true
+}

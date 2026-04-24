@@ -1,0 +1,289 @@
+{
+  "title": "FluentAR Polski",
+  "language": "pl",
+  "bcp47": "pl-PL",
+  "nativeName": "Polski",
+  "flag": "🇵🇱",
+  "levels": [
+    {
+      "id": "1",
+      "title": "Alfabet",
+      "objective": "Rozpoznawaj litery; rozum podstawowe dźwięki; wymawiaj proste sylaby",
+      "modules": [
+        {
+          "id": "pl_alphabet",
+          "title": "Litery i Dźwięki",
+          "theme": "foundation",
+          "lessons": [
+            {
+              "id": "pl_alphabet_vocab",
+              "title": "32 Litery",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "A", "translation": "a" },
+                { "term": "Ą", "translation": "ą" },
+                { "term": "B", "translation": "be" },
+                { "term": "C", "translation": "ce" },
+                { "term": "Ć", "translation": "ć" },
+                { "term": "D", "translation": "de" },
+                { "term": "E", "translation": "e" },
+                { "term": "Ę", "translation": "ę" },
+                { "term": "F", "translation": "ef" },
+                { "term": "G", "translation": "ge" },
+                { "term": "H", "translation": "ha" },
+                { "term": "I", "translation": "i" },
+                { "term": "J", "translation": "jot" },
+                { "term": "K", "translation": "ka" },
+                { "term": "L", "translation": "el" },
+                { "term": "Ł", "translation": "ł" },
+                { "term": "M", "translation": "em" },
+                { "term": "N", "translation": "en" },
+                { "term": "Ń", "translation": "ń" },
+                { "term": "O", "translation": "o" },
+                { "term": "Ó", "translation": "ó" },
+                { "term": "P", "translation": "pe" },
+                { "term": "R", "translation": "er" },
+                { "term": "S", "translation": "es" },
+                { "term": "Ś", "translation": "ś" },
+                { "term": "T", "translation": "te" },
+                { "term": "U", "translation": "u" },
+                { "term": "W", "translation": "w" },
+                { "term": "Y", "translation": "y" },
+                { "term": "Z", "translation": "zet" },
+                { "term": "Ź", "translation": "ź" },
+                { "term": "Ż", "translation": "ż" }
+              ],
+              "quiz": { "question": "Która litera brzmi jak 'a'?", "options": ["A", "B", "C"], "answerIndex": 0 }
+            }
+          ],
+          "arScenario": {
+            "summary": "Litery unoszą się w przestrzeni 3D. Stuknij, aby usłyszeć i ćwiczyć wymowę.",
+            "tutorLines": ["Nauczmy się liter.", "Która to litera?"],
+            "expectedLearnerResponses": ["A", "B", "C"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Powitania",
+      "objective": "Witaj i żegnaj się; używaj grzecznościowych słów",
+      "modules": [
+        {
+          "id": "pl_greetings",
+          "title": "Powitania i Przedstawienia",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "pl_greetings_vocab",
+              "title": "Słowa na Powitanie",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Cześć", "translation": "Hello (informal)", "hint": "Używane wśród przyjaciół" },
+                { "term": "Dzień dobry", "translation": "Good day", "hint": "Używane rano i w dzień" },
+                { "term": "Dobry wieczór", "translation": "Good evening", "hint": "Używane po południu" },
+                { "term": "Do widzenia", "translation": "Goodbye", "hint": "Formalne pożegnanie" },
+                { "term": "Na razie", "translation": "See you (informal)", "hint": "Nieformalne pożegnanie" },
+                { "term": "Proszę", "translation": "Please / You're welcome", "hint": "Wieloznaczne - kontekst decyduje" }
+              ],
+              "quiz": { "question": "Jak witasz się z przyjacielem?", "options": ["Dzień dobry", "Cześć", "Do widzenia"], "answerIndex": 1 }
+            },
+            {
+              "id": "pl_greetings_grammar",
+              "title": "Forma Czasownika 'Być'",
+              "type": "grammar",
+              "description": "Najważniejszy czasownik po polsku.",
+              "flashcards": [
+                { "term": "Jestem", "translation": "I am", "hint": "1 osoba lp" },
+                { "term": "Jesteś", "translation": "You are (informal)", "hint": "2 osoba lp" },
+                { "term": "Jest", "translation": "He/she/it is", "hint": "3 osoba lp" },
+                { "term": "Jesteśmy", "translation": "We are", "hint": "1 osoba lm" },
+                { "term": "Jesteście", "translation": "You are (plural)", "hint": "2 osoba lm" },
+                { "term": "Są", "translation": "They are", "hint": "3 osoba lm" }
+              ],
+              "quiz": { "question": "'Jestem' znaczy:", "options": ["Ty jesteś", "Ja jestem", "On jest"], "answerIndex": 1 }
+            },
+            {
+              "id": "pl_greetings_final",
+              "title": "Rozmowa powitalna",
+              "type": "ar_challenge",
+              "description": "Ćwicz powitania w rozmowie z tutorem."
+            }
+          ],
+          "arScenario": {
+            "summary": "Przedstaw się i powiedz, skąd jesteś.",
+            "tutorLines": ["Cześć! Jak się nazywasz?", "Skąd jesteś?", "Miło mi!"],
+            "expectedLearnerResponses": ["Jestem ___", "Jestem z ___", "Mnie też miło"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "W Cafe",
+      "objective": "Zamawiaj w kawiarni; płać za rachunek",
+      "modules": [
+        {
+          "id": "pl_cafe",
+          "title": "Kawiarnia",
+          "theme": "food",
+          "lessons": [
+            {
+              "id": "pl_cafe_vocab",
+              "title": "Słowa w Kawiarni",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Kawa", "translation": "Coffee" },
+                { "term": "Herbata", "translation": "Tea" },
+                { "term": "Woda", "translation": "Water" },
+                { "term": "Ciasto", "translation": "Cake" },
+                { "term": "Bułka", "translation": "Bread roll" },
+                { "term": "Mleko", "translation": "Milk" },
+                { "term": "Cukier", "translation": "Sugar" },
+                { "term": "Konto", "translation": "Bill/check" }
+              ],
+              "quiz": { "question": "Co to 'cukier'?", "options": ["Kawa", "Cukier", "Ciasto"], "answerIndex": 1 }
+            },
+            {
+              "id": "pl_cafe_grammar",
+              "title": "Tryb Rozkazujący",
+              "type": "grammar",
+              "description": "Jak zamawiać i prosić.",
+              "flashcards": [
+                { "term": "Proszę", "translation": "Please (formal request)" },
+                { "term": "Chcę", "translation": "I want" },
+                { "term": "Czy mogę", "translation": "Can I / May I" },
+                { "term": "Dziękuję", "translation": "Thank you" },
+                { "term": "Przepraszam", "translation": "Excuse me / Sorry" }
+              ],
+              "quiz": { "question": "Jak grzecznie zamówić?", "options": ["Daj", "Proszę", "Weź"], "answerIndex": 1 }
+            },
+            {
+              "id": "pl_cafe_final",
+              "title": "AR: W Kawiarni",
+              "type": "ar_challenge",
+              "description": "Zamów kawę i ciasto w AR."
+            }
+          ],
+          "arScenario": {
+            "summary": "Podejdź do lady i złóż zamówienie.",
+            "tutorLines": ["Dzień dobry! Co podać?", "Co do picia?", "Co jeszcze?"],
+            "expectedLearnerResponses": ["Poproszę kawę", "Herbatę proszę", "I ciasto"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Liczby",
+      "objective": "Licz od 1 do 100; rozumiej ceny",
+      "modules": [
+        {
+          "id": "pl_numbers",
+          "title": "Liczby 1-10",
+          "theme": "numbers",
+          "lessons": [
+            {
+              "id": "pl_numbers_vocab",
+              "title": "Liczby 1-10",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "jeden", "translation": "one" },
+                { "term": "dwa", "translation": "two" },
+                { "term": "trzy", "translation": "three" },
+                { "term": "cztery", "translation": "four" },
+                { "term": "pięć", "translation": "five" },
+                { "term": "sześć", "translation": "six" },
+                { "term": "siedem", "translation": "seven" },
+                { "term": "-osiem", "translation": "eight" },
+                { "term": "dziewięć", "translation": "nine" },
+                { "term": "dziesięć", "translation": "ten" }
+              ],
+              "quiz": { "question": "Ile to 'pięć'?", "options": ["5", "6", "7"], "answerIndex": 0 }
+            },
+            {
+              "id": "pl_numbers_grammar",
+              "title": "Liczby 11-20",
+              "type": "grammar",
+              "flashcards": [
+                { "term": "jedenaście", "translation": "eleven" },
+                { "term": "dwanaście", "translation": "twelve" },
+                { "term": "trzynaście", "translation": "thirteen" },
+                { "term": "czternaście", "translation": "fourteen" },
+                { "term": "piętnaście", "translation": "fifteen" },
+                { "term": "szesnaście", "translation": "sixteen" },
+                { "term": "siedemnaście", "translation": "seventeen" },
+                { "term": "osiemnaście", "translation": "eighteen" },
+                { "term": "dziewiętnaście", "translation": "nineteen" },
+                { "term": "dwadzieścia", "translation": "twenty" }
+              ]
+            },
+            {
+              "id": "pl_numbers_final",
+              "title": "AR: Liczby",
+              "type": "ar_challenge",
+              "description": "Ćwicz liczby w rozmowie."
+            }
+          ],
+          "arScenario": {
+            "summary": "Powiedz tutorowi, ile masz lat i ile kosztuje coś.",
+            "tutorLines": ["Ile masz lat?", "Ile to kosztuje?", "Mam dla ciebie prezent!"],
+            "expectedLearnerResponses": ["Mam ___ lat", "To kosztuje ___", "Dziękuję!"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Pytania",
+      "objective": "Zadawaj proste pytania; odpowiadaj na nie",
+      "modules": [
+        {
+          "id": "pl_questions",
+          "title": "Pytania",
+          "theme": "conversation",
+          "lessons": [
+            {
+              "id": "pl_questions_vocab",
+              "title": "Słówka pytań",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Kto?", "translation": "Who?" },
+                { "term": "Co?", "translation": "What?" },
+                { "term": "Gdzie?", "translation": "Where?" },
+                { "term": "Kiedy?", "translation": "When?" },
+                { "term": "Dlaczego?", "translation": "Why?" },
+                { "term": "Jak?", "translation": "How?" }
+              ],
+              "quiz": { "question": "Jak po polsku 'Where'?", "options": ["Kiedy?", "Gdzie?", "Jak?"], "answerIndex": 1 }
+            },
+            {
+              "id": "pl_questions_grammar",
+              "title": "Budowanie zdań",
+              "type": "grammar",
+              "description": "Jak tworzyć proste pytania.",
+              "flashcards": [
+                { "term": "Czy ___?", "translation": "Is ___?" },
+                { "term": "Czy wiesz?", "translation": "Do you know?" },
+                { "term": "Co robisz?", "translation": "What are you doing?" },
+                { "term": "Gdzie idziesz?", "translation": "Where are you going?" },
+                { "term": "Jak się masz?", "translation": "How are you?" }
+              ]
+            },
+            {
+              "id": "pl_questions_final",
+              "title": "AR: Rozmowa",
+              "type": "ar_challenge",
+              "description": "Ćwicz pytania w rozmowie."
+            }
+          ],
+          "arScenario": {
+            "summary": "Zadawaj pytania tutorowi o siebie.",
+            "tutorLines": ["Cześć! O co chcesz zapytać?", "Mogę odpowiedzieć.", "To ciekawe pytanie!"],
+            "expectedLearnerResponses": ["Jak się nazywasz?", "Skąd jesteś?", "Co robisz?"]
+          }
+        }
+      ]
+    }
+  ]
+}

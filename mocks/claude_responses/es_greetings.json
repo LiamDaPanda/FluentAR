@@ -1,0 +1,15 @@
+{
+  "moduleId": "es_greetings",
+  "language": "es",
+  "turns": [
+    { "role": "tutor", "text": "¡Hola! Mucho gusto. Me llamo Sofía." },
+    { "role": "learner_hint", "text": "Try: \"Hola. Mucho gusto.\"" },
+    { "role": "tutor", "text": "¿Cómo te llamas?" },
+    { "role": "learner_hint", "text": "Try: \"Me llamo ___.\"" },
+    { "role": "tutor", "text": "¿De dónde eres?" },
+    { "role": "learner_hint", "text": "Try: \"Soy de Estados Unidos.\"" },
+    { "role": "tutor", "text": "¿Por qué estudias español?" },
+    { "role": "tutor", "text": "¡Genial! Vamos a aprender juntos, paso a paso." }
+  ],
+  "mock": true
+}

@@ -1,0 +1,15 @@
+{
+  "moduleId": "fr_greetings",
+  "language": "fr",
+  "turns": [
+    { "role": "tutor", "text": "Bonjour ! Enchantée. Je m'appelle Camille." },
+    { "role": "learner_hint", "text": "Try: \"Bonjour. Enchanté(e).\"" },
+    { "role": "tutor", "text": "Comment vous appelez-vous ?" },
+    { "role": "learner_hint", "text": "Try: \"Je m'appelle ___.\"" },
+    { "role": "tutor", "text": "D'où venez-vous ?" },
+    { "role": "learner_hint", "text": "Try: \"Je viens des États-Unis.\"" },
+    { "role": "tutor", "text": "Pourquoi apprenez-vous le français ?" },
+    { "role": "tutor", "text": "Très bien ! On va apprendre ensemble, étape par étape." }
+  ],
+  "mock": true
+}

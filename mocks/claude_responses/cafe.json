@@ -1,0 +1,10 @@
+{
+  "moduleId": "cafe",
+  "turns": [
+    { "role": "tutor", "text": "Hi there! What can I get for you today?" },
+    { "role": "learner_hint", "text": "Try: \"I'd like a medium latte, please.\"" },
+    { "role": "tutor", "text": "Sure — hot or iced?" },
+    { "role": "tutor", "text": "Anything else to go with that?" }
+  ],
+  "mock": true
+}

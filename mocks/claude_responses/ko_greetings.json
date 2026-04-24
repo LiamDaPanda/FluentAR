@@ -1,0 +1,15 @@
+{
+  "moduleId": "ko_greetings",
+  "language": "ko",
+  "turns": [
+    { "role": "tutor", "text": "안녕하세요! 처음 뵙겠습니다. 저는 민지예요." },
+    { "role": "learner_hint", "text": "Try: \"안녕하세요. 만나서 반가워요.\"" },
+    { "role": "tutor", "text": "이름이 뭐예요?" },
+    { "role": "learner_hint", "text": "Try: \"제 이름은 ___이에요.\"" },
+    { "role": "tutor", "text": "어디에서 왔어요?" },
+    { "role": "learner_hint", "text": "Try: \"저는 미국에서 왔어요.\"" },
+    { "role": "tutor", "text": "한국어를 왜 배우고 싶어요?" },
+    { "role": "tutor", "text": "좋아요! 천천히 같이 배워봐요." }
+  ],
+  "mock": true
+}

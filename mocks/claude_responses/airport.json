@@ -1,0 +1,10 @@
+{
+  "moduleId": "airport",
+  "turns": [
+    { "role": "tutor", "text": "Good afternoon. May I see your boarding pass, please?" },
+    { "role": "learner_hint", "text": "Try: \"Here is my boarding pass.\"" },
+    { "role": "tutor", "text": "Thank you. Your flight boards in twenty minutes at gate B12." },
+    { "role": "tutor", "text": "Do you have any luggage to check today?" }
+  ],
+  "mock": true
+}

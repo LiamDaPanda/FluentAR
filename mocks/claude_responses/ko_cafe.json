@@ -1,0 +1,16 @@
+{
+  "moduleId": "ko_cafe",
+  "language": "ko",
+  "turns": [
+    { "role": "tutor", "text": "안녕하세요! 어떤 거 드릴까요?" },
+    { "role": "learner_hint", "text": "Try: \"아메리카노 한 잔 주세요.\"" },
+    { "role": "tutor", "text": "따뜻한 거요, 차가운 거요?" },
+    { "role": "learner_hint", "text": "Try: \"따뜻한 거 주세요.\"" },
+    { "role": "tutor", "text": "사이즈는요? 사이즈 업도 가능해요." },
+    { "role": "tutor", "text": "매장에서 드세요, 아니면 포장이세요?" },
+    { "role": "learner_hint", "text": "Try: \"포장이요.\"" },
+    { "role": "tutor", "text": "4,500원입니다. 결제 어떻게 하세요?" },
+    { "role": "tutor", "text": "감사합니다! 잠시만 기다려주세요." }
+  ],
+  "mock": true
+}

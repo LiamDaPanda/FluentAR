@@ -1,0 +1,15 @@
+{
+  "moduleId": "ja_greetings",
+  "language": "ja",
+  "turns": [
+    { "role": "tutor", "text": "はじめまして！私は ゆきです。" },
+    { "role": "learner_hint", "text": "Try: \"はじめまして。よろしくお願いします。\"" },
+    { "role": "tutor", "text": "お名前は何ですか？" },
+    { "role": "learner_hint", "text": "Try: \"私は ___ です。\"" },
+    { "role": "tutor", "text": "出身はどこですか？" },
+    { "role": "learner_hint", "text": "Try: \"アメリカから来ました。\"" },
+    { "role": "tutor", "text": "なぜ日本語を勉強していますか？" },
+    { "role": "tutor", "text": "素晴らしいですね！一緒に頑張りましょう。" }
+  ],
+  "mock": true
+}

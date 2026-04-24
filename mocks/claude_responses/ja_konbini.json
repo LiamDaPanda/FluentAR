@@ -1,0 +1,16 @@
+{
+  "moduleId": "ja_konbini",
+  "language": "ja",
+  "turns": [
+    { "role": "tutor", "text": "いらっしゃいませ！ご注文をどうぞ。" },
+    { "role": "learner_hint", "text": "Try: \"おにぎり 二つ と コーヒーを 一つ ください。\"" },
+    { "role": "tutor", "text": "温めますか？" },
+    { "role": "learner_hint", "text": "Try: \"はい、お願いします。\"" },
+    { "role": "tutor", "text": "袋はいりますか？" },
+    { "role": "learner_hint", "text": "Try: \"いりません。\"" },
+    { "role": "tutor", "text": "お会計は630円です。お支払いはどうされますか？" },
+    { "role": "learner_hint", "text": "Try: \"カードで お願いします。\"" },
+    { "role": "tutor", "text": "ありがとうございました！またお越しください。" }
+  ],
+  "mock": true
+}

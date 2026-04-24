@@ -1,0 +1,629 @@
+{
+  "title": "FluentAR 日本語",
+  "language": "ja",
+  "bcp47": "ja-JP",
+  "nativeName": "日本語",
+  "flag": "🇯🇵",
+  "levels": [
+    {
+      "id": "1",
+      "title": "文字",
+      "objective": "文字を読む; 基本音を話す",
+      "modules": [
+        {
+          "id": "ja_hiragana",
+          "title": "ひらがな",
+          "theme": "foundation",
+          "lessons": [
+            {
+              "id": "ja_hiragana_vocab",
+              "title": "あ行か行",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "あ", "translation": "a" },
+                { "term": "い", "translation": "i" },
+                { "term": "う", "translation": "u" },
+                { "term": "え", "translation": "e" },
+                { "term": "お", "translation": "o" },
+                { "term": "か", "translation": "ka" },
+                { "term": "き", "translation": "ki" },
+                { "term": "く", "translation": "ku" },
+                { "term": "け", "translation": "ke" },
+                { "term": "こ", "translation": "ko" }
+              ]
+            },
+            {
+              "id": "ja_hiragana2",
+              "title": "さ行た行",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "さ", "translation": "sa" },
+                { "term": "し", "translation": "shi" },
+                { "term": "す", "translation": "su" },
+                { "term": "せ", "translation": "se" },
+                { "term": "そ", "translation": "so" },
+                { "term": "た", "translation": "ta" },
+                { "term": "ち", "translation": "chi" },
+                { "term": "つ", "translation": "tsu" },
+                { "term": "て", "translation": "te" },
+                { "term": "と", "translation": "to" }
+              ]
+            },
+            {
+              "id": "ja_hiragana3",
+              "title": "な行ま行",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "な", "translation": "na" },
+                { "term": "に", "translation": "ni" },
+                { "term": "ぬ", "translation": "nu" },
+                { "term": "ね", "translation": "ne" },
+                { "term": "の", "translation": "no" },
+                { "term": "ま", "translation": "ma" },
+                { "term": "み", "translation": "mi" },
+                { "term": "む", "translation": "mu" },
+                { "term": "め", "translation": "me" },
+                { "term": "も", "translation": "mo" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Practice hiragana characters.",
+            "tutorLines": ["文字を勉強しましょう。", "これは何ですか？"],
+            "expectedLearnerResponses": ["あ", "い", "う"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "挨拶",
+      "objective": "挨拶と別れの言葉",
+      "modules": [
+        {
+          "id": "ja_hello",
+          "title": "こんにちは",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "ja_hello_vocab",
+              "title": "挨拶の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "こんにちは", "translation": "Hello (day)" },
+                { "term": "おはよう", "translation": "Good morning" },
+                { "term": "こんばんは", "translation": "Good evening" },
+                { "term": "さようなら", "translation": "Goodbye" },
+                { "term": "また明日", "translation": "See you tomorrow" },
+                { "term": "はじめまして", "translation": "Nice to meet you" }
+              ]
+            },
+            {
+              "id": "ja_polite",
+              "title": "丁寧な言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "ありがとう", "translation": "Thank you" },
+                { "term": "すみません", "translation": "Excuse me/Sorry" },
+                { "term": "お願いします", "translation": "Please" },
+                { "term": "どういたしまして", "translation": "You're welcome" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Meet someone new.",
+            "tutorLines": ["こんにちは！お元気ですか？", "はじめまして。"],
+            "expectedLearnerResponses": ["こんにちは、はじめまして。", "ありがとうございます。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "自己紹介",
+      "objective": "自己紹介をする; 出身を言う",
+      "modules": [
+        {
+          "id": "ja_intro",
+          "title": "私は誰？",
+          "theme": "identity",
+          "lessons": [
+            {
+              "id": "ja_intro_vocab",
+              "title": "自分の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "私の名前は...", "translation": "My name is..." },
+                { "term": "お名前は？", "translation": "What is your name?" },
+                { "term": "...出身です", "translation": "I'm from..." },
+                { "term": "どこに出身ですか？", "translation": "Where are you from?" },
+                { "term": "学生です", "reflection": "I am a student" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Introduce yourself.",
+            "tutorLines": ["お名前は？", "どこに出身ですか？"],
+            "expectedLearnerResponses": ["私の名前はLiamです。", "アメリカ出身です。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "数字",
+      "objective": "1から100まで数える; 時間を言う",
+      "modules": [
+        {
+          "id": "ja_numbers",
+          "title": "数字",
+          "theme": "numbers",
+          "lessons": [
+            {
+              "id": "ja_numbers_10",
+              "title": "1-10",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "一", "translation": "One" },
+                { "term": "二", "translation": "Two" },
+                { "term": "三", "translation": "Three" },
+                { "term": "四", "translation": "Four" },
+                { "term": "五", "translation": "Five" },
+                { "term": "六", "translation": "Six" },
+                { "term": "七", "translation": "Seven" },
+                { "term": "八", "translation": "Eight" },
+                { "term": "九", "translation": "Nine" },
+                { "term": "十", "translation": "Ten" }
+              ]
+            },
+            {
+              "id": "ja_time",
+              "title": "時間",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "今、何時ですか？", "translation": "What time is it?" },
+                { "term": "一時", "translation": "One o'clock" },
+                { "term": "三時", "translation": "Three o'clock" },
+                { "term": "半", "translation": "Half past" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Practice numbers and time.",
+            "tutorLines": ["今、何時ですか？", "幾つですか？"],
+            "expectedLearnerResponses": ["三時です。", "二十五歳です。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "家族",
+      "objective": "家族の話ををする",
+      "modules": [
+        {
+          "id": "ja_family",
+          "title": "家族",
+          "theme": "family",
+          "lessons": [
+            {
+              "id": "ja_family_vocab",
+              "title": "家族の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "母", "translation": "Mother" },
+                { "term": "父", "translation": "Father" },
+                { "term": "両親", "translation": "Parents" },
+                { "term": "兄", "translation": "Older brother" },
+                { "term": "姉", "translation": "Older sister" },
+                { "term": "弟", "translation": "Younger brother" },
+                { "term": "妹", "translation": "Younger sister" },
+                { "term": "祖父", "translation": "Grandfather" },
+                { "term": "祖母", "translation": "Grandmother" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about your family.",
+            "tutorLines": ["兄弟はいますか？", "お母さんは何年生ですか？"],
+            "expectedLearnerResponses": ["兄がいます。", "母は名���は���橋です。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "毎日の生活",
+      "objective": "毎日のルーティンを説明する",
+      "modules": [
+        {
+          "id": "ja_daily",
+          "title": "私の日",
+          "theme": "routine",
+          "lessons": [
+            {
+              "id": "ja_daily_questions",
+              "title": "質問の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "何？", "translation": "What?" },
+                { "term": "いつ？", "translation": "When?" },
+                { "term": "どこ？", "translation": "Where?" },
+                { "term": "なぜ？", "translation": "Why?" },
+                { "term": "どう？", "translation": "How?" },
+                { "term": "いくら？", "translation": "How much?" }
+              ]
+            },
+            {
+              "id": "ja_daily_activities",
+              "title": "活動",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "朝ごはん", "translation": "Breakfast" },
+                { "term": "食べる", "translation": "To eat" },
+                { "term": "寝る", "translation": "To sleep" },
+                { "term": " работать", "translation": "To work" },
+                { "term": "勉強する", "translation": "To study" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Describe your day.",
+            "tutorLines": ["今日何をしますか？", "何時に食べますか？"],
+            "expectedLearnerResponses": ["朝ごはんを八時に食べます。", "一时にご飯を食べます。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "食べ物",
+      "objective": "食べ物を注文する",
+      "modules": [
+        {
+          "id": "ja_food",
+          "title": "レストラン",
+          "theme": "food",
+          "lessons": [
+            {
+              "id": "ja_food_vocab",
+              "title": "食べ物と飲み物",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "水", "translation": "Water" },
+                { "term": "お茶", "translation": "Tea" },
+                { "term": "ご飯", "translation": "Rice" },
+                { "term": "肉", "translation": "Meat" },
+                { "term": "魚", "translation": "Fish" },
+                { "term": "サラダ", "translation": "Salad" },
+                { "term": "コラー", "translation": "Cooked rice" },
+                { "term": "お会計", "translation": "The bill" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Order at a restaurant.",
+            "tutorLines": ["いらっしゃいませ。", "何をご希望ですか？"],
+            "expectedLearnerResponses": ["お茶とご飯をお願いします。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "買い物",
+      "objective": "買い物をする; サイズを聞く",
+      "modules": [
+        {
+          "id": "ja_shopping",
+          "title": "買い物",
+          "theme": "shopping",
+          "lessons": [
+            {
+              "id": "ja_shopping_vocab",
+              "title": "買い物の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "いくらですか？", "translation": "How much is it?" },
+                { "term": "高い", "translation": "Expensive" },
+                { "term": "安い", "translation": "Cheap" },
+                { "term": "サイズ", "translation": "Size" },
+                { "term": "青い", "translation": "Blue" },
+                { "term": "赤い", "translation": "Red" },
+                { "term": "黒い", "translation": "Black" },
+                { "term": "白い", "translation": "White" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Buy clothes.",
+            "tutorLines": ["いらっしゃいませ。", " 어떤 사이즈를 입으세요?"],
+            "expectedLearnerResponses": ["青いシャツ欲しいです。", "Mサイズです。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "道順",
+      "objective": "道順を聞く",
+      "modules": [
+        {
+          "id": "ja_directions",
+          "title": "道的聞き方",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "ja_directions_vocab",
+              "title": "場所と方向",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "...はどこですか？", "translation": "Where is...?" },
+                { "term": "右", "translation": "Right" },
+                { "term": "左", "translation": "Left" },
+                { "term": "まっすぐ", "translation": "Straight" },
+                { "term": "駅", "translation": "Station" },
+                { "term": "ホテル", "translation": "Hotel" },
+                { "term": "空港", "translation": "Airport" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Ask for directions.",
+            "tutorLines": ["駅はどこですか？", "まっすぐ行ってください。"],
+            "expectedLearnerResponses": ["ありがとうございます。", "右ですか？"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "趣味",
+      "objective": "趣味の話を 한다",
+      "modules": [
+        {
+          "id": "ja_hobbies",
+          "title": "趣味",
+          "theme": "leisure",
+          "lessons": [
+            {
+              "id": "ja_hobbies_vocab",
+              "title": "活動",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "サッカーをする", "translation": "Play soccer" },
+                { "term": "本を読む", "translation": "Read books" },
+                { "term": "映画を見る", "translation": "Watch movies" },
+                { "term": "音楽を聴く", "translation": "Listen to music" },
+                { "term": "友達と出る", "translation": "Go out with friends" },
+                { "term": "料理を作る", "translation": "Cook" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about hobbies.",
+            "tutorLines": ["趣味は何ですか？", "サッカーは好きですか？"],
+            "expectedLearnerResponses": ["本を読むことです。", "はい、好きです。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "健康とホテル",
+      "objective": "体の問題; チェックイン",
+      "modules": [
+        {
+          "id": "ja_health",
+          "title": "医者",
+          "theme": "health",
+          "lessons": [
+            {
+              "id": "ja_health_vocab",
+              "title": "症状",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "頭がいたい", "translation": "Headache" },
+                { "term": "熱がある", "translation": "Have a fever" },
+                { "term": "病気です", "translation": "I'm sick" },
+                { "term": "医者が必要です", "translation": "Need a doctor" },
+                { "term": "薬局はどこですか？", "translation": "Where is pharmacy?" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Visit a doctor.",
+            "tutorLines": ["どうしましたか？", "熱はありますか？"],
+            "expectedLearnerResponses": ["頭がいたいです。", "はい、熱があります。"]
+          }
+        },
+        {
+          "id": "ja_hotel",
+          "title": "ホテル",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "ja_hotel_vocab",
+              "title": "ホテルの言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "予約があります", "translation": "I have reservation" },
+                { "term": "部屋", "translation": "Room" },
+                { "term": "朝ごはんは含まれていますか？", "translation": "Breakfast included?" },
+                { "term": "チェックアウトは何時ですか？", "translation": "Check-out time?" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "ホテルのチェックイン — フロント係と話しましょう。",
+            "tutorLines": ["いらっしゃいませ、ご予約はございますか？", "こちらがお部屋の鍵です。ごゆっくりどうぞ。"],
+            "expectedLearnerResponses": ["はい、予約があります。", "ありがとうございます。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "空港",
+      "objective": "空港での行動",
+      "modules": [
+        {
+          "id": "ja_airport",
+          "title": "フライト",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "ja_airport_vocab",
+              "title": "空港の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "パスポート", "translation": "Passport" },
+                { "term": "搭乗券", "translation": "Boarding pass" },
+                { "term": "ゲート", "translation": "Gate" },
+                { "term": "フライト", "translation": "Flight" },
+                { "term": "スーツケース", "translation": "Suitcase" },
+                { "term": "出口", "translation": "Exit" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "At the airport.",
+            "tutorLines": ["パスポート please.", "スーツケースはありますか？"],
+            "expectedLearnerResponses": ["はい、どうぞ。", "二個あります。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "社会のフレーズ",
+      "objective": "社会の計画",
+      "modules": [
+        {
+          "id": "ja_social",
+          "title": "誘い",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "ja_social_vocab",
+              "title": "計画の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "...はどうですか？", "translation": "How about...?" },
+                { "term": "行こう", "translation": "Let's go" },
+                { "term": "空いていますか？", "translation": "Are you free...?" },
+                { "term": "欲しいです", "translation": "I would like..." }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Invite someone.",
+            "tutorLines": ["明日しますか？", "映画に行きませんか？"],
+            "expectedLearnerResponses": ["はい、行きたいです。", "いい考えですね。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "過去",
+      "objective": "過去の会話を話す",
+      "modules": [
+        {
+          "id": "ja_past",
+          "title": "昨日",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "ja_past_vocab",
+              "title": "過去の時間",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "昨日", "translation": "Yesterday" },
+                { "term": "昨晚", "translation": "Last night" },
+                { "term": "先週", "translation": "Last week" },
+                { "term": "去年", "translation": "Last year" },
+                { "term": "行った", "translation": "Went" },
+                { "term": "見た", "translation": "Saw" },
+                { "term": "食べた", "translation": "Ate" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about yesterday.",
+            "tutorLines": ["昨日何をしましたか？", "映画に行きましたか？"],
+            "expectedLearnerResponses": ["映画に行きました。", "いい映画を見ました。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "未来",
+      "objective": "将来の計画",
+      "modules": [
+        {
+          "id": "ja_future",
+          "title": "目標",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "ja_future_vocab",
+              "title": "未来の言葉",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "明日", "translation": "Tomorrow" },
+                { "term": "来週", "translation": "Next week" },
+                { "term": "...に行く", "translation": "Going to..." },
+                { "term": "たいです", "translation": "Want to..." },
+                { "term": "と思っています", "translation": "Thinking of..." }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about plans.",
+            "tutorLines": ["明日何をしますか？", "週末は予定がありますか？"],
+            "expectedLearnerResponses": ["日本語を勉強します。", "海に行きたいです。"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "最後のプロジェクト",
+      "objective": "全部の組み合わせ",
+      "modules": [
+        {
+          "id": "ja_final",
+          "title": "会話",
+          "theme": "project",
+          "lessons": [
+            {
+              "id": "ja_final_conv",
+              "title": "会話",
+              "type": "ar_challenge",
+              "description": "全部の組み合わせ"
+            }
+          ],
+          "arScenario": {
+            "summary": "Full conversation: introduce, order coffee, ask directions, goodbye.",
+            "tutorLines": [
+              "こんにちは！お元気ですか？",
+              "どこ出身ですか？",
+              "何を知りたいですか？",
+              "明日予定がありますか？",
+              "またね！"
+            ],
+            "expectedLearnerResponses": [
+              "ありがとうございます。",
+              "、アメリカ出身です。",
+              "お茶をお願いします。",
+              "日本語を勉強します。",
+              "また明日！"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

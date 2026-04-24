@@ -1,0 +1,624 @@
+{
+  "title": "FluentAR 한국어",
+  "language": "ko",
+  "bcp47": "ko-KR",
+  "nativeName": "한국어",
+  "flag": "🇰🇷",
+  "levels": [
+    {
+      "id": "1",
+      "title": "자모",
+      "objective": "자모 읽기; 기본 소리 발음",
+      "modules": [
+        {
+          "id": "ko_hangul",
+          "title": "한글",
+          "theme": "foundation",
+          "lessons": [
+            {
+              "id": "ko_hangul_vocab",
+              "title": "자음 모음",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "ㄱ", "translation": "g/k" },
+                { "term": "ㄴ", "translation": "n" },
+                { "term": "ㄷ", "translation": "d/t" },
+                { "term": "ㄹ", "translation": "r/l" },
+                { "term": "ㅁ", "translation": "m" },
+                { "term": "ㅂ", "translation": "b/p" },
+                { "term": "ㅅ", "translation": "s" },
+                { "term": "ㅇ", "translation": "ng/blank" },
+                { "term": "ㅈ", "translation": "j" },
+                { "term": "ㅊ", "translation": "ch" }
+              ]
+            },
+            {
+              "id": "ko_hangul2",
+              "title": "나열",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "가", "translation": "ga" },
+                { "term": "나", "translation": "na" },
+                { "term": "다", "translation": "da" },
+                { "term": "라", "translation": "ra" },
+                { "term": "마", "translation": "ma" },
+                { "term": "바", "translation": "ba" },
+                { "term": "사", "translation": "sa" },
+                { "term": "아", "translation": "a" },
+                { "term": "자", "translation": "ja" },
+                { "term": "카", "translation": "ka" }
+              ]
+            },
+            {
+              "id": "ko_hangul3",
+              "title": "复合자음",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "카", "translation": "ka" },
+                { "term": "타", "translation": "ta" },
+                { "term": "파", "translation": "pa" },
+                { "term": "하", "translation": "ha" },
+                { "term": "고", "translation": "go" },
+                { "term": "노", "translation": "no" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Practice Hangul characters.",
+            "tutorLines": ["자모를 공부합시다.", "이 건 무엇입니까?"],
+            "expectedLearnerResponses": ["가", "나", "다"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "인사",
+      "objective": "인사와 작별",
+      "modules": [
+        {
+          "id": "ko_hello",
+          "title": "안녕하세요",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "ko_hello_vocab",
+              "title": "인사말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "안녕하세요", "translation": "Hello" },
+                { "term": "안녕히 가세요", "translation": "Goodbye (to leave)" },
+                { "term": "안녕히 계세요", "translation": "Goodbye (to stay)" },
+                { "term": "다음에 봐요", "translation": "See you next time" },
+                { "term": "만나요", "translation": "Nice to meet you" }
+              ]
+            },
+            {
+              "id": "ko_polite",
+              "title": "공손말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "감사합니다", "translation": "Thank you" },
+                { "term": "부탁합니다", "translation": "Please" },
+                { "term": "천만에요", "translation": "You're welcome" },
+                { "term": "실례합니다", "translation": "Excuse me" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Meet someone new.",
+            "tutorLines": ["안녕하세요! 어떻게 지내세요?", "만나요."],
+            "expectedLearnerResponses": ["안녕하세요, 만나서 반갑습니다.", "감사합니다."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "자기 소개",
+      "objective": "자기 소개; 출신 말하기",
+      "modules": [
+        {
+          "id": "ko_intro",
+          "title": "제 이름은?",
+          "theme": "identity",
+          "lessons": [
+            {
+              "id": "ko_intro_vocab",
+              "title": "자기 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "제 이름은 ___", "translation": "My name is ___" },
+                { "term": "이름이 뭐예요?", "translation": "What's your name?" },
+                { "term": "...에서 왔어요", "translation": "I'm from ___" },
+                { "term": "어디에서 왔어요?", "translation": "Where are you from?" },
+                { "term": "학생이에요", "translation": "I'm a student" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Introduce yourself.",
+            "tutorLines": ["이름이 뭐예요?", "어디에서 왔어요?"],
+            "expectedLearnerResponses": ["제 이름은 Liam예요.", "미국에서 왔어요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "숫자",
+      "objective": "1부터 100까지 세기; 시간 말하기",
+      "modules": [
+        {
+          "id": "ko_numbers",
+          "title": "숫자",
+          "theme": "numbers",
+          "lessons": [
+            {
+              "id": "ko_numbers_10",
+              "title": "1-10",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "하나", "translation": "One" },
+                { "term": "둘", "translation": "Two" },
+                { "term": "셋", "translation": "Three" },
+                { "term": "넷", "translation": "Four" },
+                { "term": "다섯", "translation": "Five" },
+                { "term": "여섯", "translation": "Six" },
+                { "term": "일곱", "translation": "Seven" },
+                { "term": "여덟", "translation": "Eight" },
+                { "term": "아홉", "translation": "Nine" },
+                { "term": "열", "translation": "Ten" }
+              ]
+            },
+            {
+              "id": "ko_time",
+              "title": "시간",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "지금 몇 시예요?", "translation": "What time is it?" },
+                { "term": "한 시", "translation": "One o'clock" },
+                { "term": "세 시", "translation": "Three o'clock" },
+                { "term": "반", "translation": "Half past" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Practice numbers and time.",
+            "tutorLines": ["지금 몇 시예요?", "몇 살이에요?"],
+            "expectedLearnerResponses": ["세 시예요.", "스물다섯 살이에요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "가족",
+      "objective": "가족에 대해 말하기",
+      "modules": [
+        {
+          "id": "ko_family",
+          "title": "가족",
+          "theme": "family",
+          "lessons": [
+            {
+              "id": "ko_family_vocab",
+              "title": "가족 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "어머니", "translation": "Mother" },
+                { "term": "아버지", "translation": "Father" },
+                { "term": "부모님", "translation": "Parents" },
+                { "term": "오빠", "translation": "Older brother" },
+                { "term": "언니", "translation": "Older sister" },
+                { "term": "남동생", "translation": "Younger brother" },
+                { "term": "여동생", "translation": "Younger sister" },
+                { "term": "할아버지", "translation": "Grandfather" },
+                { "term": "할머니", "translation": "Grandmother" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about your family.",
+            "tutorLines": ["형제가 있어요?", "어머니는 뭐하세요?"],
+            "expectedLearnerResponses": ["오빠가 있어요.", "어머니는 선생님이에요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "일상",
+      "objective": "일상 routine 설명",
+      "modules": [
+        {
+          "id": "ko_daily",
+          "title": "나의 하루",
+          "theme": "routine",
+          "lessons": [
+            {
+              "id": "ko_daily_questions",
+              "title": "질문 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "뭐?", "translation": "What?" },
+                { "term": "언제?", "translation": "When?" },
+                { "term": "어디?", "translation": "Where?" },
+                { "term": "왜?", "translation": "Why?" },
+                { "term": "어떻게?", "translation": "How?" },
+                { "term": "얼마?", "translation": "How much?" }
+              ]
+            },
+            {
+              "id": "ko_daily_activities",
+              "title": "활동",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "아침 식사", "translation": "Breakfast" },
+                { "term": "먹다", "translation": "To eat" },
+                { "term": "자다", "translation": "To sleep" },
+                { "term": "일하다", "translation": "To work" },
+                { "term": "공부하다", "translation": "To study" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Describe your day.",
+            "tutorLines": ["오늘 뭐 해요?", "몇 시에 먹어요?"],
+            "expectedLearnerResponses": ["아침 여덟 시에 먹어요.", "한 시에 먹어요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "음식",
+      "objective": "음식 주문",
+      "modules": [
+        {
+          "id": "ko_food",
+          "title": "식당",
+          "theme": "food",
+          "lessons": [
+            {
+              "id": "ko_food_vocab",
+              "title": "음식과 음료",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "물", "translation": "Water" },
+                { "term": "커피", "translation": "Coffee" },
+                { "term": "쌀", "translation": "Rice" },
+                { "term": "고기", "translation": "Meat" },
+                { "term": "생선", "translation": "Fish" },
+                { "term": "샐러드", "translation": "Salad" },
+                { "term": "밥", "translation": "Cooked rice" },
+                { "term": "계산서", "translation": "The bill" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Order at a restaurant.",
+            "tutorLines": ["어서 오세요.", "뭐 드릴까요?"],
+            "expectedLearnerResponses": ["커피와 밥 주세요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "쇼핑",
+      "objective": "쇼핑하기; 사이즈 물어보기",
+      "modules": [
+        {
+          "id": "ko_shopping",
+          "title": "쇼핑",
+          "theme": "shopping",
+          "lessons": [
+            {
+              "id": "ko_shopping_vocab",
+              "title": "쇼핑 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "얼마예요?", "translation": "How much is it?" },
+                { "term": "비싸다", "translation": "Expensive" },
+                { "term": "싸다", "translation": "Cheap" },
+                { "term": "사이즈", "translation": "Size" },
+                { "term": "파랑", "translation": "Blue" },
+                { "term": "빨강", "translation": "Red" },
+                { "term": "검정", "translation": "Black" },
+                { "term": "하양", "translation": "White" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Buy clothes.",
+            "tutorLines": ["어떤 색 좋아하세요?", "어떤 사이즈 예요?"],
+            "expectedLearnerResponses": ["파랑색 Polo shirts want.", "M 사이즈예요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "방향",
+      "objective": "방향 물어보기",
+      "modules": [
+        {
+          "id": "ko_directions",
+          "title": "길 찾기",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "ko_directions_vocab",
+              "title": "장소와 방향",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "...는 어디예요?", "translation": "Where is...?" },
+                { "term": "오른쪽", "translation": "Right" },
+                { "term": "왼쪽", "translation": "Left" },
+                { "term": "직진", "translation": "Go straight" },
+                { "term": "역", "translation": "Station" },
+                { "term": "호텔", "translation": "Hotel" },
+                { "term": "공항", "translation": "Airport" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Ask for directions.",
+            "tutorLines": ["역은 어디예요?", "직진 가세요."],
+            "expectedLearnerResponses": ["감사합니다.", "오른쪽이에요?"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "취미",
+      "objective": "취미에 대해 말하기",
+      "modules": [
+        {
+          "id": "ko_hobbies",
+          "title": "취미",
+          "theme": "leisure",
+          "lessons": [
+            {
+              "id": "ko_hobbies_vocab",
+              "title": "활동",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "축구를 하다", "translation": "Play soccer" },
+                { "term": "책을 읽다", "translation": "Read books" },
+                { "term": "영화를 보다", "translation": "Watch movies" },
+                { "term": "음악을 듣다", "translation": "Listen to music" },
+                { "term": "친구들과 나가다", "translation": "Go out with friends" },
+                { "term": "요리하다", "translation": "Cook" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about hobbies.",
+            "tutorLines": ["취미가 뭐예요?", "축구 좋아하세요?"],
+            "expectedLearnerResponses": ["책 읽는 거예요.", "네, 좋아해요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "건강과 호텔",
+      "objective": "건강 문제; 체크인",
+      "modules": [
+        {
+          "id": "ko_health",
+          "title": "병원",
+          "theme": "health",
+          "lessons": [
+            {
+              "id": "ko_health_vocab",
+              "title": "증상",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "머리가 아파요", "translation": "Headache" },
+                { "term": "열이 나요", "translation": "Have a fever" },
+                { "term": "아파요", "translation": "I'm sick" },
+                { "term": "의사가 필요해요", "translation": "Need a doctor" },
+                { "term": "약국은 어디예요?", "translation": "Where is pharmacy?" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Visit a doctor.",
+            "tutorLines": ["어떻게 오셨나요?", "열이 나세요?"],
+            "expectedLearnerResponses": ["머리가 아파요.", "네, 열이 나요."]
+          }
+        },
+        {
+          "id": "ko_hotel",
+          "title": "호텔",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "ko_hotel_vocab",
+              "title": "호텔 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "예약했어요", "translation": "I have reservation" },
+                { "term": "방", "translation": "Room" },
+                { "term": "아침 식사가 포함된 예요?", "translation": "Breakfast included?" },
+                { "term": "체크아웃은 몇 시예요?", "translation": "Check-out time?" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "호텔 체크인 — 프런트 직원과 대화하세요.",
+            "tutorLines": ["안녕하세요, 예약하셨어요?", "방 키 여기 있습니다. 좋은 하루 보내세요."],
+            "expectedLearnerResponses": ["네, 예약했어요.", "감사합니다."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "공항",
+      "objective": "공항에서 navigation",
+      "modules": [
+        {
+          "id": "ko_airport",
+          "title": "항공",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "ko_airport_vocab",
+              "title": "공항 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "여권", "translation": "Passport" },
+                { "term": "탑승권", "translation": "Boarding pass" },
+                { "term": "게이트", "translation": "Gate" },
+                { "term": "항공편", "translation": "Flight" },
+                { "term": "짐싸레기", "translation": "Suitcase" },
+                { "term": "출구", "translation": "Exit" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "At the airport.",
+            "tutorLines": ["여권 주세요.", "짐이 있어요?"],
+            "expectedLearnerResponses": ["네, 여기예요.", "두 개 있어요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "사회적인 문장",
+      "objective": "사회적인 계획",
+      "modules": [
+        {
+          "id": "ko_social",
+          "title": "초대",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "ko_social_vocab",
+              "title": "계획 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "...어는 어때요?", "translation": "How about...?" },
+                { "term": "가자", "translation": "Let's go" },
+                { "term": "시간 있어요?", "translation": "Are you free...?" },
+                { "term": "먹고 싶어요", "translation": "I would like..." }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Invite someone.",
+            "tutorLines": ["내일 뭐 해요?", "영화 보러 갈래요?"],
+            "expectedLearnerResponses": ["네, 가고 싶어요.", "좋은 생각이에요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "과거",
+      "objective": "과거에 대해 말하기",
+      "modules": [
+        {
+          "id": "ko_past",
+          "title": "어제",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "ko_past_vocab",
+              "title": "과거 시간",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "어제", "translation": "Yesterday" },
+                { "term": "어젯밤", "translation": "Last night" },
+                { "term": "지난주", "translation": "Last week" },
+                { "term": "去年", "translation": "Last year" },
+                { "term": "갔다", "translation": "Went" },
+                { "term": "봤다", "translation": "Saw" },
+                { "term": "먹었다", "translation": "Ate" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about yesterday.",
+            "tutorLines": ["어제 뭐 했어요?", "영화 갔어요?"],
+            "expectedLearnerResponses": ["영화 봤어요.", "좋은 영화 봤어요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "미래",
+      "objective": "미래 계획",
+      "modules": [
+        {
+          "id": "ko_future",
+          "title": "목표",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "ko_future_vocab",
+              "title": "미래 말",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "내일", "translation": "Tomorrow" },
+                { "term": "다음 주", "translation": "Next week" },
+                { "term": "...갈게요", "translation": "Going to..." },
+                { "term": "...하고 싶어요", "translation": "Want to..." },
+                { "term": "할 생각이에요", "translation": "Thinking of..." }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about plans.",
+            "tutorLines": ["내일 뭐 할 거예요?", "주말에 계획 있어요?"],
+            "expectedLearnerResponses": ["한국어 공부할 거예요.", "바다 가고 싶어요."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "마지막 프로젝트",
+      "objective": "전체 조합",
+      "modules": [
+        {
+          "id": "ko_final",
+          "title": "대화",
+          "theme": "project",
+          "lessons": [
+            {
+              "id": "ko_final_conv",
+              "title": "대화",
+              "type": "ar_challenge",
+              "description": "전체 조합"
+            }
+          ],
+          "arScenario": {
+            "summary": "Full conversation: introduce, order coffee, ask directions, goodbye.",
+            "tutorLines": [
+              "안녕하세요! 어떻게 지내세요?",
+              "어디에서 왔어요?",
+              "뭐 드릴까요?",
+              "내일 계획 있어요?",
+              "또 봐요!"
+            ],
+            "expectedLearnerResponses": [
+              "안녕하세요, 잘 지내요.",
+              "미국에서 왔어요.",
+              "커피 주세요.",
+              "한국어 공부할 거예요.",
+              "내일 봐요!"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "fluentar",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "backend",
+    "mocks",
+    "shared"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace=mobile",
+    "backend": "npm run dev --workspace=backend",
+    "install:all": "npm install"
+  },
+  "dependencies": {
+    "@types/react": "~19.1.10"
+  }
+}

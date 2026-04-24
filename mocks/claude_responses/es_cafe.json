@@ -1,0 +1,16 @@
+{
+  "moduleId": "es_cafe",
+  "language": "es",
+  "turns": [
+    { "role": "tutor", "text": "¡Hola! ¿Qué te pongo?" },
+    { "role": "learner_hint", "text": "Try: \"Quisiera un café con leche, por favor.\"" },
+    { "role": "tutor", "text": "¿Para tomar aquí o para llevar?" },
+    { "role": "learner_hint", "text": "Try: \"Para tomar aquí.\"" },
+    { "role": "tutor", "text": "Muy bien. ¿Algo más?" },
+    { "role": "learner_hint", "text": "Try: \"También quisiera una tostada.\"" },
+    { "role": "tutor", "text": "Son 4,50 €. ¿Cómo vas a pagar?" },
+    { "role": "learner_hint", "text": "Try: \"Con tarjeta, por favor.\"" },
+    { "role": "tutor", "text": "¡Gracias, hasta pronto!" }
+  ],
+  "mock": true
+}

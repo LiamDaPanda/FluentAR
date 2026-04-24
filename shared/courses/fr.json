@@ -1,0 +1,640 @@
+{
+  "title": "FluentAR Français",
+  "language": "fr",
+  "bcp47": "fr-FR",
+  "nativeName": "Français",
+  "flag": "🇫🇷",
+  "levels": [
+    {
+      "id": "1",
+      "title": "L'Alphabet",
+      "objective": "Reconnaître les lettres; comprendre les sons de base; prononcer les syllabes",
+      "modules": [
+        {
+          "id": "fr_alphabet",
+          "title": "Lettres et Sons",
+          "theme": "foundation",
+          "lessons": [
+            {
+              "id": "fr_alphabet_vocab",
+              "title": "Les 26 Lettres",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "A", "translation": "a" },
+                { "term": "B", "translation": "bé" },
+                { "term": "C", "translation": "cé" },
+                { "term": "D", "translation": "dé" },
+                { "term": "E", "translation": "e" },
+                { "term": "F", "translation": "effe" },
+                { "term": "G", "translation": "gé" },
+                { "term": "H", "translation": "hache" },
+                { "term": "I", "translation": "i" },
+                { "term": "J", "translation": "ji" }
+              ]
+            },
+            {
+              "id": "fr_alphabet2",
+              "title": "Lettres K-Z",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "K", "translation": "ka" },
+                { "term": "L", "translation": "elle" },
+                { "term": "M", "translation": "emme" },
+                { "term": "N", "translation": "enne" },
+                { "term": "O", "translation": "o" },
+                { "term": "P", "translation": "pé" },
+                { "term": "Q", "translation": "ku" },
+                { "term": "R", "translation": "erre" },
+                { "term": "S", "translation": "esse" },
+                { "term": "T", "translation": "té" }
+              ]
+            },
+            {
+              "id": "fr_alphabet3",
+              "title": "Lettres U-Z",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "U", "translation": "u" },
+                { "term": "V", "translation": "vé" },
+                { "term": "W", "translation": "double vé" },
+                { "term": "X", "translation": "iks" },
+                { "term": "Y", "translation": "i grec" },
+                { "term": "Z", "translation": "zède" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Letters float in 3D. Tap to hear and practice.",
+            "tutorLines": ["Apprenons les lettres.", "Quelle lettre est-ce?"],
+            "expectedLearnerResponses": ["A", "B", "C"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Salutations",
+      "objective": "Saluer et dire au revoir; utiliser les politesses",
+      "modules": [
+        {
+          "id": "fr_hello",
+          "title": "Bonjour",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "fr_hello_vocab",
+              "title": "Mots de Salutation",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Bonjour", "translation": "Hello/Good day" },
+                { "term": "Bonsoir", "translation": "Good evening" },
+                { "term": "Au revoir", "translation": "Goodbye" },
+                { "term": "À bientôt", "translation": "See you soon" },
+                { "term": "À demain", "translation": "See you tomorrow" }
+              ],
+              "quiz": { "question": "'Goodbye'?", "options": ["Bonjour", "Au revoir"], "answerIndex": 1 }
+            },
+            {
+              "id": "fr_polite",
+              "title": "Politesse",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Merci", "translation": "Thank you" },
+                { "term": "S'il vous plaît", "translation": "Please" },
+                { "term": "De rien", "translation": "You're welcome" },
+                { "term": "Excusez-moi", "translation": "Excuse me" },
+                { "term": "Pardon", "translation": "Sorry" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Meet someone new and greet them politely.",
+            "tutorLines": ["Bonjour! Ça va?", "Bonsoir."],
+            "expectedLearnerResponses": ["Bonjour, ça va bien.", "Merci."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Introductions",
+      "objective": "Se présenter; dire d'où on vient",
+      "modules": [
+        {
+          "id": "fr_intro",
+          "title": "Qui es-tu?",
+          "theme": "identity",
+          "lessons": [
+            {
+              "id": "fr_intro_vocab",
+              "title": "Mots Personnels",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Je m'appelle ___", "translation": "My name is ___" },
+                { "term": "Comment vous appelez-vous?", "translation": "What is your name?" },
+                { "term": "Je suis de ___", "translation": "I'm from ___" },
+                { "term": "D'où venez-vous?", "translation": "Where are you from?" },
+                { "term": "Je suis étudiant", "translation": "I'm a student" }
+              ],
+              "quiz": { "question": "'My name is'?", "options": ["Je m'appelle", "Je suis"], "answerIndex": 0 }
+            }
+          ],
+          "arScenario": {
+            "summary": "Introduce yourself to the tutor.",
+            "tutorLines": ["Bonjour,.comment vous appelez-vous?", "D'où venez-vous?"],
+            "expectedLearnerResponses": ["Je m'appelle Liam.", "Je suis des États-Unis."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Nombres",
+      "objective": "Compter de 1 à 100; dire l'heure",
+      "modules": [
+        {
+          "id": "fr_numbers",
+          "title": "1-100",
+          "theme": "numbers",
+          "lessons": [
+            {
+              "id": "fr_numbers_20",
+              "title": "Nombres 1-20",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Un", "translation": "One" },
+                { "term": "Deux", "translation": "Two" },
+                { "term": "Trois", "translation": "Three" },
+                { "term": "Quatre", "translation": "Four" },
+                { "term": "Cinq", "translation": "Five" },
+                { "term": "Six", "translation": "Six" },
+                { "term": "Sept", "translation": "Seven" },
+                { "term": "Huit", "translation": "Eight" },
+                { "term": "Neuf", "translation": "Nine" },
+                { "term": "Dix", "translation": "Ten" },
+                { "term": "Onze", "translation": "Eleven" },
+                { "term": "Douze", "translation": "Twelve" },
+                { "term": "Treize", "translation": "Thirteen" },
+                { "term": "Quatorze", "translation": "Fourteen" },
+                { "term": "Quinze", "translation": "Fifteen" },
+                { "term": "Seize", "translation": "Sixteen" },
+                { "term": "Dix-sept", "translation": "Seventeen" },
+                { "term": "Dix-huit", "translation": "Eighteen" },
+                { "term": "Dix-neuf", "translation": "Nineteen" },
+                { "term": "Vingt", "translation": "Twenty" }
+              ]
+            },
+            {
+              "id": "fr_time",
+              "title": "L'Heure",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Quelle heure est-il?", "translation": "What time is it?" },
+                { "term": "Il est une heure", "translation": "It's one o'clock" },
+                { "term": "Il est trois heures", "translation": "It's three o'clock" },
+                { "term": "Et demie", "translation": "And half" },
+                { "term": "Et quart", "translation": "And quarter" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Practice numbers and tell time.",
+            "tutorLines": ["Quelle heure est-il?", "Combien avez-vous?"],
+            "expectedLearnerResponses": ["Il est trois heures.", "J'ai vingt-cinq ans."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Famille",
+      "objective": "Parler de la famille; utiliser les possessifs",
+      "modules": [
+        {
+          "id": "fr_family",
+          "title": "Membres de la Famille",
+          "theme": "family",
+          "lessons": [
+            {
+              "id": "fr_family_vocab",
+              "title": "Mots de Famille",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "La mère", "translation": "Mother" },
+                { "term": "Le père", "translation": "Father" },
+                { "term": "Les parents", "translation": "Parents" },
+                { "term": "Le frère", "translation": "Brother" },
+                { "term": "La sœur", "translation": "Sister" },
+                { "term": "Le fils", "translation": "Son" },
+                { "term": "La fille", "translation": "Daughter" },
+                { "term": "Le grand-père", "translation": "Grandfather" },
+                { "term": "La grand-mère", "translation": "Grandmother" },
+                { "term": "Oncle/Tante", "translation": "Uncle/Aunt" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about your family.",
+            "tutorLines": ["Avez-vous des frères?", "Comment s'appelle votre mère?"],
+            "expectedLearnerResponses": ["J'ai un frère.", "Ma mère s'appelle Marie."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Routine Quotidienne",
+      "objective": "Décrire votre routine; utiliser les mots interrogatifs",
+      "modules": [
+        {
+          "id": "fr_daily",
+          "title": "Ma Journée",
+          "theme": "routine",
+          "lessons": [
+            {
+              "id": "fr_daily_questions",
+              "title": "Mots de Question",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Quoi?", "translation": "What?" },
+                { "term": "Quand?", "translation": "When?" },
+                { "term": "Où?", "translation": "Where?" },
+                { "term": "Pourquoi?", "translation": "Why?" },
+                { "term": "Comment?", "translation": "How?" },
+                { "term": "Combien?", "translation": "How much?" }
+              ]
+            },
+            {
+              "id": "fr_daily_activities",
+              "title": "Activités Quotidiennes",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Je déjeuner", "translation": "I have lunch" },
+                { "term": "Je mange", "translation": "I eat" },
+                { "term": "Je dors", "translation": "I sleep" },
+                { "term": "Je travaille", "translation": "I work" },
+                { "term": "J'étudie", "translation": "I study" },
+                { "term": "Je fais du sport", "translation": "I do sports" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Describe your typical day.",
+            "tutorLines": ["Qu'est-ce que vous faites aujourd'hui?", "À quelle heure mangez-vous?"],
+            "expectedLearnerResponses": ["Je déjeuner à huit heures.", "Je mange à une heure."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Nourriture",
+      "objective": "Commander de la nourriture; exprimer les préférences",
+      "modules": [
+        {
+          "id": "fr_food",
+          "title": "Au Restaurant",
+          "theme": "food",
+          "lessons": [
+            {
+              "id": "fr_food_vocab",
+              "title": "Nourriture et Boisson",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "L'eau", "translation": "Water" },
+                { "term": "Le café", "translation": "Coffee" },
+                { "term": "Le pain", "translation": "Bread" },
+                { "term": "La viande", "translation": "Meat" },
+                { "term": "Le poisson", "translation": "Fish" },
+                { "term": "La salade", "translation": "Salad" },
+                { "term": "Le dessert", "translation": "Dessert" },
+                { "term": "L'addition", "translation": "The bill" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Order at a restaurant.",
+            "tutorLines": ["Que желаете?", "Voulez-vous quelque chose à boire?"],
+            "expectedLearnerResponses": ["Je voudrais un café et du pain."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Courses",
+      "objective": "Faire les courses; demander les tailles",
+      "modules": [
+        {
+          "id": "fr_shopping",
+          "title": "Au Magasin",
+          "theme": "shopping",
+          "lessons": [
+            {
+              "id": "fr_shopping_vocab",
+              "title": "Mots d'Achat",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Combien ça coûte?", "translation": "How much does it cost?" },
+                { "term": "Trop cher", "translation": "Too expensive" },
+                { "term": "Bon marché", "translation": "Cheap" },
+                { "term": "La taille", "translation": "Size" },
+                { "term": "Bleu", "translation": "Blue" },
+                { "term": "Rouge", "translation": "Red" },
+                { "term": "Noir", "translation": "Black" },
+                { "term": "Blanc", "translation": "White" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Buy clothes at a store.",
+            "tutorLines": ["Que buscaz?", "Quelle taille portez-vous?"],
+            "expectedLearnerResponses": ["Je cherche une chemise bleue.", "Je porte le moyen."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Directions",
+      "objective": "Demander et donner des directions",
+      "modules": [
+        {
+          "id": "fr_directions",
+          "title": "Comment Arriver",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "fr_directions_vocab",
+              "title": "Lieux et Directions",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Où est...?", "translation": "Where is...?" },
+                { "term": "À droite", "translation": "To the right" },
+                { "term": "À gauche", "translation": "To the left" },
+                { "term": "Tout droit", "translation": "Straight ahead" },
+                { "term": "La gare", "translation": "The station" },
+                { "term": "L'hôtel", "translation": "The hotel" },
+                { "term": "L'aéroport", "translation": "The airport" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Ask for directions.",
+            "tutorLines": ["Où est la gare?", "Allez tout droit."],
+            "expectedLearnerResponses": ["Merci.", "À droite, non?"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Loisirs",
+      "objective": "Parler des passe-temps",
+      "modules": [
+        {
+          "id": "fr_hobbies",
+          "title": "Temps Libre",
+          "theme": "leisure",
+          "lessons": [
+            {
+              "id": "fr_hobbies_vocab",
+              "title": "Activités",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Je joue au foot", "translation": "I play soccer" },
+                { "term": "Je lis des livres", "translation": "I read books" },
+                { "term": "Je regarde des films", "translation": "I watch movies" },
+                { "term": "J'écoute de la musique", "translation": "I listen to music" },
+                { "term": "Je sors avec des amis", "translation": "I go out with friends" },
+                { "term": "Je cuisine", "translation": "I cook" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about your hobbies.",
+            "tutorLines": ["Que faites-vous pendant votre temps libre?", "Aimez-vous le foot?"],
+            "expectedLearnerResponses": ["J'aime lire.", "Oui, je joue le weekend."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Santé et Hôtel",
+      "objective": "Gérer les problèmes de santé; enregistrer à l'hôtel",
+      "modules": [
+        {
+          "id": "fr_health",
+          "title": "Chez le Médecin",
+          "theme": "health",
+          "lessons": [
+            {
+              "id": "fr_health_vocab",
+              "title": "Symptômes",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "J'ai mal à la tête", "translation": "I have a headache" },
+                { "term": "J'ai de la fièvre", "translation": "I have a fever" },
+                { "term": "Je suis malade", "translation": "I'm sick" },
+                { "term": "J'ai besoin d'un médecin", "translation": "I need a doctor" },
+                { "term": "Où est la pharmacie?", "translation": "Where is the pharmacy?" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Visit a doctor.",
+            "tutorLines": ["Qu'est-ce qui ne va pas?", "Avez-vous de la fièvre?"],
+            "expectedLearnerResponses": ["J'ai mal à la tête.", "Oui, j'ai de la fièvre."]
+          }
+        },
+        {
+          "id": "fr_hotel",
+          "title": "À l'Hôtel",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "fr_hotel_vocab",
+              "title": "Mots d'Hôtel",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "J'ai une réservation", "translation": "I have a reservation" },
+                { "term": "Une chambre", "translation": "A room" },
+                { "term": "Le petit-déjeuner est-il inclus?", "translation": "Is breakfast included?" },
+                { "term": "À quelle heure est le départ?", "translation": "What time is check-out?" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Enregistrement à l'hôtel — parlez avec le réceptionniste.",
+            "tutorLines": ["Bonjour, avez-vous une réservation ?", "Voici la clé de votre chambre. Bon séjour !"],
+            "expectedLearnerResponses": ["Oui, j'ai une réservation.", "Merci beaucoup."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Aéroport",
+      "objective": "Naviguer dans les aéroports; vocabulaire de voyage",
+      "modules": [
+        {
+          "id": "fr_airport",
+          "title": "En Vol",
+          "theme": "travel",
+          "lessons": [
+            {
+              "id": "fr_airport_vocab",
+              "title": "Mots d'Aéroport",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Le passeport", "translation": "Passport" },
+                { "term": "La carte d'embarquement", "translation": "Boarding pass" },
+                { "term": "La porte", "translation": "Gate" },
+                { "term": "Le vol", "translation": "Flight" },
+                { "term": "La valise", "translation": "Suitcase" },
+                { "term": "La sortie", "translation": "Exit" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "At the airport counter.",
+            "tutorLines": ["Votre passeport, s'il vous plaît?", "Avez-vous des valises?"],
+            "expectedLearnerResponses": ["Oui, voilà.", "J'ai deux valises."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Phrases Sociales",
+      "objective": "Faire des projets sociaux; utiliser les invitations",
+      "modules": [
+        {
+          "id": "fr_social",
+          "title": "Invitations",
+          "theme": "social",
+          "lessons": [
+            {
+              "id": "fr_social_vocab",
+              "title": "Projets Sociaux",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Voulez-vous...?", "translation": "Do you want...?" },
+                { "term": "On va...", "translation": "Let's..." },
+                { "term": "Êtes-vous libre...?", "translation": "Are you free...?" },
+                { "term": "J'aimerais...", "translation": "I would like..." }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Invite someone to do something.",
+            "tutorLines": ["Que faites-vous demain?", "Voulez-vous aller au cinéma?"],
+            "expectedLearnerResponses": ["Oui, bien sûr.", "Bonne idée."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Passé",
+      "objective": "Parler des événements passés",
+      "modules": [
+        {
+          "id": "fr_past",
+          "title": "Événements Passés",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "fr_past_vocab",
+              "title": "Temps Passé",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Hier", "translation": "Yesterday" },
+                { "term": "Ce soir", "translation": "Last night" },
+                { "term": "La semaine dernière", "translation": "Last week" },
+                { "term": "L'année dernière", "translation": "Last year" },
+                { "term": "Je suis allé", "translation": "I went" },
+                { "term": "J'ai vu", "translation": "I saw" },
+                { "term": "J'ai mangé", "translation": "I ate" }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about what you did yesterday.",
+            "tutorLines": ["Qu'est-ce que vous avez fait hier?", "Êtes-vous allé au cinéma?"],
+            "expectedLearnerResponses": ["Je suis allé au cinéma.", "J'ai vu un bon film."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Futur",
+      "objective": "Parler des projets futurs",
+      "modules": [
+        {
+          "id": "fr_future",
+          "title": "Buts et Rêves",
+          "theme": "grammar",
+          "lessons": [
+            {
+              "id": "fr_future_vocab",
+              "title": "Temps Futur",
+              "type": "vocabulary",
+              "flashcards": [
+                { "term": "Demain", "translation": "Tomorrow" },
+                { "term": "La semaine prochaine", "translation": "Next week" },
+                { "term": "Je vais...", "translation": "I'm going to..." },
+                { "term": "Je veux...", "translation": "I want to..." },
+                { "term": "J'espère...", "translation": "I hope..." }
+              ]
+            }
+          ],
+          "arScenario": {
+            "summary": "Talk about your plans.",
+            "tutorLines": ["Que allez-vous faire demain?", "Avez-vous des projets pour le weekend?"],
+            "expectedLearnerResponses": ["Je vais étudier français.", "Je veux aller à la plage."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Projet Final",
+      "objective": "Conversation complète combinant toutes les compétences",
+      "modules": [
+        {
+          "id": "fr_final",
+          "title": "Conversation Complète",
+          "theme": "project",
+          "lessons": [
+            {
+              "id": "fr_final_conv",
+              "title": "Conversation Complète",
+              "type": "ar_challenge",
+              "description": "Put it all together with your tutor."
+            }
+          ],
+          "arScenario": {
+            "summary": "Full conversation: introduce yourself, order coffee, ask directions, say goodbye.",
+            "tutorLines": [
+              "Bonjour! Ça va?",
+              "D'où venez-vous?",
+              "Que voulez-vous prendre?",
+              "Avez-vous des plans pour demain?",
+              "Très bien, à bientôt!"
+            ],
+            "expectedLearnerResponses": [
+              "Bonjour, très bien merci.",
+              "Je suis des États-Unis.",
+              "Je voudrais un café.",
+              "Oui, je vais étudier français.",
+              "À bientôt!"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
