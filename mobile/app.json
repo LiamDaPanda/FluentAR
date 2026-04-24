@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "FluentAR",
+    "slug": "fluentar",
+    "version": "1.1.0",
+    "description": "Immersion-first personal language course.",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "fluentar",
+    "newArchEnabled": true,
+    "platforms": [
+      "ios",
+      "web"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f8fafc"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fluentar.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "FluentAR uses your camera so you can practice speaking about what you see around you.",
+        "NSMicrophoneUsageDescription": "FluentAR uses the microphone for speaking practice.",
+        "NSSpeechRecognitionUsageDescription": "FluentAR uses speech recognition to score your pronunciation.",
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos",
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "meta": {
+        "name": "FluentAR",
+        "description": "Immersion-first personal language course. Learn vocabulary, grammar, and practice with AR speaking challenges.",
+        "themeColor": "#2563eb",
+        "backgroundColor": "#ffffff",
+        "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+        "appleMobileWebCapable": "yes",
+        "appleMobileWebAppCapable": "yes",
+        "appleMobileWebAppStatusBarStyle": "default",
+        "appleMobileWebAppTitle": "FluentAR"
+      }
+    },
+    "category": "education",
+    "privacy": "public",
+    "primaryColor": "#2563eb",
+    "backgroundColor": "#ffffff",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "FluentAR uses your camera so you can practice speaking about what you see around you."
+        }
+      ],
+      "expo-audio",
+      "@reactvision/react-viro"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "51b6dfd1-1fcb-4d60-8717-c528b312c6c1"
+      }
+    },
+    "owner": "plainad"
+  }
+}
