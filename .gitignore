@@ -1,6 +1,9 @@
 node_modules/
-dist/
 .expo/
+!.expo/README.md
+!.expo/devices.json
+dist/
+!mobile/dist/
 *.log
 .env
 .env.local
