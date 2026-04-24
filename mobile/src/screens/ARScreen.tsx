@@ -316,6 +316,7 @@ export default function ARScreen({
       <View style={styles.cameraWrap}>
         <ARSurface
           hint={cameraHint}
+          theme={mod?.theme}
           items={!done ? floatingItems : []}
           highlightId={highlightedItemId}
           onTap={(item) => {
